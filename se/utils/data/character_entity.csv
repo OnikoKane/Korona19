@@ -1,0 +1,1037 @@
+mapID,value,label,graph
+R100,马洪明,人物,character
+R101,孙宝清,人物,character
+R102,欧阳铭,人物,character
+R103, 刘升明,人物,character
+R104,王大礼,人物,character
+R105,周玉民,人物,character
+R106,吕嘉春,人物,character
+R107,郑劲平,人物,character
+R108,莫红缨,人物,character
+R109,柯昌文,人物,character
+R110, 陈如冲,人物,character
+R111,罗炜,人物,character
+R112,姚卫民,人物,character
+R113,新型冠状病毒 2019-nCoV,病毒,character
+R114,SARS冠状病毒,病毒,character
+R115,传染病临床,领域,character
+R116,浙江医科大学,学校,character
+R117,H1N1流感战役,战役,character
+R118,H7N9禽流感,战役,character
+R119,2020年2月1日，李兰娟院士带队驰援武汉：“四抗二平衡”新方案抢救危重症病人。抵达后在武汉大学人民医院展开工作。,事件,character
+R120,2020年2月4日，李兰娟院士团队在武汉发布重大抗病毒研究成果 “阿比朵尔、达芦那韦能有效抑制冠状病毒”,事件,character
+R121,2020年2月1日，“我打算比较长期地在那里，与那边的医护人员共同奋斗。我自己希望到金银潭医院，所有危重症集中的那个医院。”,言论,character
+R122,2003年，仅用一夜，隔离1000多人。 就是这位73岁的老人，在十七年前创造SARS“零严重后遗症”、无医务人员感染、无二代病人的奇迹。,事迹,character
+R123,2014年《首次对甲型H1N1流感大流行有效防控及集成创新性研究》获得国家科技进步奖一等奖（排名第五）,事迹,character
+R124,2015年 《人感染 H7N9 禽流感诊治研究的理论创新和技术突破》获得 社会团体 一等奖；,事迹,character
+R125,2017年《以防控人感染H7N9禽流感为代表的新发传染病防治体系重大创新和技术突破》获得国家科技进步奖特等奖（排名第一）,事迹,character
+R126,绍兴,城市,character
+R127,1993年至今 复旦大学附属华山医院 感染病科党支部书记、主任,履历,character
+R129,国家科技进步二等奖,奖项,character
+character_sR1,二等奖,Character_String,character
+R131,省科技进步一等奖,奖项,character
+character_sR2,一等奖,Character_String,character
+R132,省科技进步二等奖,奖项,character
+character_sR3,二等奖,Character_String,character
+R133,浙江省科学技术进步一等奖,奖项,character
+character_sR4,一等奖,Character_String,character
+R134,《本科临床 传染病学 配增值 第9版》,书籍,character
+R135,《传染病学 第9版 人卫版》,书籍,character
+R136,《传染病学 第3版》,书籍,character
+R137,《感染病学学习指导及习题集》,书籍,character
+R138,《肝衰竭新进展》,书籍,character
+R139,《B3型柯萨奇病毒感染对胰岛细胞糖尿病相关LncRNA表达的影响》,文章,character
+R140,《中国近30年微生态学发展现状及未来》,文章,character
+R141,《H7N9禽流感病毒裂解佐剂(MF59)疫苗的长期免疫原性研究》,文章,character
+R142,《H7N9禽流感病毒分子生物学变异的研究进展》,文章,character
+R143,《中国人工肝研究——跟跑者迈向领跑者》,文章,character
+R144,党支部书记,职务,character
+R145,主任,职务,character
+R146,复旦大学附属华山医院,机构,character
+R147,上海,城市,character
+R148,《H7N9禽流感病毒裂解佐剂(MF59)疫苗的长期免疫原性研究》,成果,character
+R149,沈雅婧,人物,character
+R150,《H7N9禽流感病毒裂解佐剂(MF59)疫苗的长期免疫原性研究》,文章,character
+R151,吴晓鑫,人物,character
+R152,沈吉友,人物,character
+R153,李艳华,人物,character
+R154,高海女,人物,character
+R155,杨仕贵,人物,character
+R156,高等教育出版社,机构,character
+R157,杭州,城市,character
+R158,刘大庆,人物,character
+character_sR5,吉林省,Character_String,character
+character_sR6,男,Character_String,character
+character_dR1,2020-01-28,Character_Date,character
+character_sR7,汉,Character_String,character
+R159,何建华,人物,character
+character_sR8,内蒙古自治区,Character_String,character
+character_sR9,男,Character_String,character
+character_dR2,2020-01-26,Character_Date,character
+character_sR10,汉,Character_String,character
+R160,吉林铁路公安处吉林北站公安派出所,机构,character
+R161,吉林铁路公安处吉林北站公安派出所,机构,character
+R162,民警,职务,character
+R163,辅警,职务,character
+R164,突泉县公安局育文派出所民警,履历,character
+R165,突泉县公安局育文派出所,机构,character
+R166,张文宏,人物,character
+character_sR11,福建厦门,Character_String,character
+character_sR12,男,Character_String,character
+character_sR13,汉,Character_String,character
+R167,各种疑难感染性疾病,领域,character
+R168,上海医科大学,学校,character
+R169,埃博拉战役,战役,character
+R170,2020年1月29日晚上，张文宏在疫情新闻发布会上表示：1自己一定要亲自下病房查房。2科室把所有岗位的医生全部换成党员,事件,character
+R171,2020年2月3日，《张文宏教授支招防控新型冠状病毒》（数字版）网络发布。,事件,character
+R172,1980年广东省科技进步三等奖,事件,character
+R173,脑出血,事件,character
+R174,1982年广州市科技成果一等奖,事件,character
+R175,2008年广东省科学技术二等奖,事件,character
+R176,1994年中国卫生部重大科技成果三等奖,事件,character
+R177,2008年广州市科学技术进步一等奖,事件,character
+R178,2008年广州市科学技术进步二等奖,事件,character
+R179,2009年中国国家级教学成果二等奖,事件,character
+R180,1997年省科技进步一等奖,事件,character
+R181,1998年国家科技进步二等奖,事件,character
+R182,2001年省科技进步一等奖,事件,character
+R183,2003年省科技进步一等奖,事件,character
+R184,突发脑溢血,事件,character
+R185,吉林铁路公安处吉林北站公安派出所 民警,履历,character
+R186,2003年，张文宏随老师参与非典的救治和防疫工作，他的老师华山医院感染科终身教授翁心华时任上海市“非典”专家咨询组组长。非典结束后，张文宏协助翁心华一起主编了国内首部介绍SARS的专业书籍。,事迹,character
+R187,吉林铁路公安处吉林北站公安派出所,职务,character
+R188,2013年，H7N9，第一时间在国际上客观报道了中国案例；,事迹,character
+R189,民警,机构,character
+R190,2014年，埃博拉，参加了援助西非的紧急救援队。,事迹,character
+R191,2020年初，新冠肺炎，成为上海医疗救治专家组组长。,事迹,character
+R192,2020年1月29日，疫情新闻发布会。“党员冲在最前线，什么是前线？现在就是！”,言论,character
+R193,温州瑞安,城市,character
+R194,H7N9型禽流感,疾病,character
+R195,上海和安徽,城市,character
+R196,新亚型流感病毒,病毒,character
+R197,李文亮,人物,character
+character_sR14,辽宁锦州,Character_String,character
+character_sR15,男,Character_String,character
+character_dR3,2020-02-07,Character_Date,character
+character_sR16,unknown,Character_String,character
+character_sR17,汉,Character_String,character
+R198,武汉大学,学校,character
+R199,2014年-2020年2月武汉市中心医院医生,履历,character
+R200,眼科医生,职务,character
+R201,武汉市中心医院,机构,character
+R202,2019年12月30日，李文亮发出了一份写有“检出高置信度阳性指标 SARS冠状病毒阳性”的临床病原体筛查结果和患者胸部CT，并称“最新消息是冠状病毒感染确定了，正在进行病毒分型。”,事迹,character
+R203,辽宁锦州,城市,character
+R204,2019年12月30日，在微信群发出预警信息,事件,character
+R205,2020年1月3日，警方对他进行训诫,事件,character
+R206,2020年1月8日，接诊时不幸被患者感染,事件,character
+R207,2020年1月12日，因发烧、肺部感染住院,事件,character
+R208,2020年2月1日，被确诊感染新型冠状病毒,事件,character
+R21,李兰娟,人物,character
+character_sR18,浙江绍兴,Character_String,character
+character_sR19,女,Character_String,character
+character_dR4,1947-09-13,Character_Date,character
+character_sR20,汉,Character_String,character
+R210,如果我们不说实话，谁还会说实话？,言论,character
+R211,疫情爆发期间，在人流量较大的突泉县汽车客运站开展工作,事件,character
+R212,面对疫情，刘大庆放弃春节休息，让妻子儿女咱家照顾九旬母亲，大年初一戴口罩执勤。工作之余，主动在所里清扫卫生、买菜做饭。,事迹,character
+R213,驻守新型冠状病毒疫情第一线,事件,character
+R214,张定宇,人物,character
+character_sR21,湖北武汉,Character_String,character
+character_sR22,男,Character_String,character
+character_dR5,1963-12-01,Character_Date,character
+character_sR23,汉,Character_String,character
+R215,赴阿尔及利亚、巴基斯坦等国开展国际医疗援助，带领湖北省第三医疗队赴汶川抗震救灾,事迹,character
+R216,武汉金银潭医院院长：身患绝症、妻子被感染，抗击疫情最前线奋战30余天,事迹,character
+R217,2013年12月至今 湖北省武汉市金银潭医院（武汉市传染病医院） 党委副书记、院长,履历,character
+R218,党委副书记,职务,character
+R219,《认识肝炎·知行合一 （病毒性肝炎宜指导和释疑）》,书籍,character
+character_dR6,2017-08-01,Character_Date,character
+R22,钟南山,人物,character
+character_sR24,福建厦门,Character_String,character
+character_sR25,男,Character_String,character
+character_dR7,1936-10-01,Character_Date,character
+character_sR26,汉,Character_String,character
+R220,2020年1月23日，湖北省新型肺炎应急科研攻关研究专家组召开第一次工作会议正式宣布成立由中科院武汉病毒所牵头，张定宇等13位相关学科专家组成的新型肺炎应急科研攻关研究专家组攻关新型肺炎研究。,事件,character
+R221,《翁心华疑难感染病和发热病例精选与临床思维》,书籍,character
+character_dR8,2016-09-01,Character_Date,character
+R222,很感激解放军医疗队的分担，让我这两天凌晨1点就能躺下了，之前有时候得扛到三、四点才能睡。,言论,character
+R223,我爱人虽然感染了病毒，但是很幸运，给她用了抗毒药之后，有效果，我很感恩。,言论,character
+R224,这样的疫情和灾难，无论发生在其他任何一个国家，后果都不可想像。我很感恩，当我们为了抢救病人不顾一切，背后支撑我们的，是整个中国。,言论,character
+R225,《重点感染性疾病的防治（第2版）》,书籍,character
+character_dR9,2018-04-01,Character_Date,character
+R226,《张文宏教授支招防控新型冠状病毒》,书籍,character
+character_dR10,2020-02-01,Character_Date,character
+R227,《高毒力肺炎克雷伯菌血清型、毒力基因分布及分子标志物探索》,文章,character
+character_dR11,2019-12-25,Character_Date,character
+R228,《肺炎克雷伯菌肝脓肿70例临床分析》,文章,character
+character_dR12,2018-01-20,Character_Date,character
+R229,《细菌持留与抗生素表型耐药机制》,文章,character
+character_dR13,2016-08-16,Character_Date,character
+R23,中国,国家,character
+R230,《结核病诊断技术新进展》,文章,character
+character_dR14,2016-06-25,Character_Date,character
+R231,《 成人急性感染性腹泻治疗新进展》,文章,character
+character_dR15,2013-12-25,Character_Date,character
+R232,《抗结核药物所致肝损伤相关危险因素及临床处置对策》,文章,character
+character_dR16,2013-11-10,Character_Date,character
+R233,曾在太和派出所、指挥中心、育文派出所等工作。组建民事纠纷调解小组，创造了辖区连续十年都无重大刑事案件的业绩；曾荣记个人三等功1次、嘉奖6次，荣获先进个人和全盟十佳社区民警等荣誉称号。,事迹,character
+R234,曾在太和派出所、指挥中心、育文派出所等地工作。组建民事纠纷调解小组，创造了辖区连续十年都无重大刑事案件的业绩；曾荣记个人三等功1次、嘉奖6次，荣获先进个人和全盟十佳社区民警等荣誉称号。,事迹,character
+R235,《微生物与感染》,期刊,character
+R236,《中国感染与化疗杂志 》,期刊,character
+R237,《遗传》,期刊,character
+R238,《中国防痨杂志 》,期刊,character
+R239,武汉市金银潭医院,机构,character
+R24,呼吸病学,领域,character
+R240,徐水宝,人物,character
+R242,曾文聪,人物,character
+character_sR27,广东省清远市英德市,Character_String,character
+character_sR28,男,Character_String,character
+character_dR17,2020-01-26,Character_Date,character
+character_sR29,unknown,Character_String,character
+character_sR30,汉,Character_String,character
+R243,杨思宇,人物,character
+R244,打击犯罪、巡逻防控、排查隐患、入户宣传调查等,事件,character
+R245,翁珊珊,人物,character
+R246,广东桥头派出所 辅警,履历,character
+R247,陈晨,人物,character
+R25,北京医学院,学校,character
+R251,苏莱曼·巴马丁,人物,character
+character_sR31,新疆维吾尔自治区乌恰县,Character_String,character
+character_sR32,男,Character_String,character
+character_dR18,2020-01-25,Character_Date,character
+character_sR33,维吾尔,Character_String,character
+R252,宋英杰,人物,character
+character_sR34,湖北省衡山县,Character_String,character
+character_sR35,男,Character_String,character
+character_dR19,2020-02-03,Character_Date,character
+character_sR36,汉,Character_String,character
+R253,胡锋,人物,character
+character_sR37,安徽省枞阳县,Character_String,character
+character_sR38,男,Character_String,character
+character_dR20,2020-01-26,Character_Date,character
+character_dR21,1990-04-01,Character_Date,character
+character_sR39,汉,Character_String,character
+R255,乌恰县公安局阿克检查站副站长 疫情一线检查员,履历,character
+R256,心肌梗塞,事件,character
+R257,湖南衡山县东湖镇马迹卫生院药剂组 副组长,履历,character
+R259,加入抗击新型冠状病毒感染的肺炎岳临高速东湖高速路口收费站体温检测排查团队，每天坚持值班，并且独自负责马迹卫生院仓库医疗物资分发,事件,character
+R26,非典战役,战役,character
+R260,疫情防控点执勤,事件,character
+R261,交通事故,事件,character
+R262,安徽省枞阳县公安局特（巡）警大队 辅警,履历,character
+R263,在去往县局的路上突发心脏病,事件,character
+R264,山东省东明县看守所 所长,履历,character
+R266,于正洲,人物,character
+character_sR40,山东省临邑县,Character_String,character
+character_sR41,男,Character_String,character
+character_dR22,2020-01-30,Character_Date,character
+character_dR23,1972-02-01,Character_Date,character
+character_sR42,汉,Character_String,character
+R268,齐鲁交通发展集团有限公司淄博分公司收费管理部 部长,履历,character
+R27,新型冠状病毒战役,战役,character
+R270,负责按上级要求统筹安排齐鲁交通淄博分公司所辖13个高速公路收费站口的疫情防控工作，配合公安、交通等部门做好车辆的劝返、留观工作，配合卫生健康部门开展防疫检测检查工作,事件,character
+R271,负责按上级要求统筹安排齐鲁交通淄博分公司所辖13个高速公路收费站口的疫情防控工作，配合公安、交通等部门做好车辆的劝返、留观工作，配合卫生健康部门开展防疫检测检查、落实运输物资车辆免费、快捷通行工作。,事件,character
+R272,梁医生,人物,character
+character_sR43,男,Character_String,character
+character_dR24,2020-01-25,Character_Date,character
+character_sR44,unknown,Character_String,character
+character_sR45,汉,Character_String,character
+R273,毛样洪,人物,character
+character_sR46,福建省南平市,Character_String,character
+character_sR47,男,Character_String,character
+character_dR25,2020-01-25,Character_Date,character
+character_sR48,unknown,Character_String,character
+character_sR49,汉,Character_String,character
+R274,武汉亚心总医院 医生,履历,character
+R276,福建省南平市浦城县仙阳镇中心卫生院 副院长,履历,character
+R277,驻守高速检查站检测过往车辆乘员体温,事件,character
+R278,吴柳,人物,character
+R279,车祸,事件,character
+R28,2020年1月18日，钟南山从广州赶往武汉。,事件,character
+R280,张洁,人物,character
+R281,孙琳,人物,character
+R282,樊琴,人物,character
+R283,乌恰县公安局阿克检查站 副站长,履历,character
+R285,疫情一线检查员,事件,character
+R287,崔鹏,人物,character
+R288,许涛,人物,character
+R289,张颖,人物,character
+R29,2020年1月20日晚，钟南山院士接受了白岩松采访，提出“它是肯定有人传人的”，拉响全国防控警报。,事件,character
+R290,突泉县公安局育文派出所 民警,履历,character
+R291,广东桥头派出所,机构,character
+R293,埃博拉出血热（EBHF）,疾病,character
+R294,急性呼吸道传染病,疾病,character
+R295,埃博拉病毒,病毒,character
+R296,甲型H1N1流感病毒,病毒,character
+R297,副站长,职务,character
+R298,乌恰县公安局阿克检查站,机构,character
+R299,湖南衡山县东湖镇马迹卫生院药剂组,职务,character
+R30,2003年4月12日，广东呼吸疾病研究院召开发布会上，“现在病原不知道，怎么预防不清楚，怎么治疗也还没有很好的办法，病情还在传染，怎么能说是控制了？我们顶多叫遏制，不叫控制！”,言论,character
+R300,副组长,职务,character
+R301,湖南衡山县东湖镇马迹卫生院药剂组,机构,character
+R302,安徽省枞阳县公安局特（巡）警大队,机构,character
+R303,所长,职务,character
+R304,山东省东明县看守所所长,机构,character
+R305,山东省东明县看守所,机构,character
+R306,部长,职务,character
+R307,齐鲁交通发展集团有限公司淄博分公司收费管理部,机构,character
+R308,医生,职务,character
+R309,武汉亚心总医院,机构,character
+R31,2020年1月20日，央视新闻采访，“新型冠状病毒很可能来自野味，可以人传人，存在医务人员感染的风险。”,言论,character
+R310,副院长,职务,character
+R311,福建省南平市浦城县仙阳镇中心卫生院,机构,character
+R313,墨西哥,城市,character
+R314,加利福尼亚州,城市,character
+R315,德克萨斯州,城市,character
+R316,安徽,城市,character
+R317,西非,城市,character
+R318,上海科技出版社,机构,character
+R319,科学出版社,机构,character
+R32,对慢性不明原因咳嗽诊断成功率达85%，重症监护室抢救成功率达91%；,事迹,character
+R320,"在抗击新型冠状病毒感染的肺炎疫情工作中不幸感染,经全力抢救无效,于2020年2月7日凌晨2点58分去世",事件,character
+R321,王森,人物,character
+R322,孙峰,人物,character
+R323,雷建平,人物,character
+R324,吴雪琼,人物,character
+R325,中华医学科技奖,事件,character
+R326,上海市银蛇奖,事件,character
+R327,高福,人物,character
+R328,病原微生物跨宿主传播,领域,character
+R329,牛津大学,学校,character
+R33,2003年以钟南山为首的专家指导下，广东省创下世界最低非典病死率记录3.7%；,事迹,character
+R330,H7N9型禽流感,战役,character
+R331,率领首批中国疾病预防控制中心移动实验室检测队赴塞拉利昂抗击埃博拉,事件,character
+R332,塞拉利昂,城市,character
+R333,“作为中国疾控中心主任，我更大的工作是疾病预防控制工作，落实总书记在十九大提出的预防控制重大疾病，从治疗为主转向预防为主健康中国的策略。”,言论,character
+R334,描绘出埃博拉病毒的进化图，在抗击埃博拉病毒的国际援助行动中发挥了关键作用;,事迹,character
+R335,首次证实野生迁徙鸟能够群体感染高致病性H5N1禽流感病毒，改变了野生迁徙鸟只是流感病毒贮存宿主的结论,事迹,character
+R336,埃博拉,城市,character
+R337,山西应县,城市,character
+R338,2013年12月至今 中国科学院 院士,履历,character
+R339,中国科学院,机构,character
+R34,南京,城市,character
+R340,2011年5月至今 中国疾病预防控制中心 副主任,履历,character
+R341,副主任,职务,character
+R342,中国疾病预防控制中心,机构,character
+R343,《猪瘟防制》,成果,character
+R344,《鸡新城疫防制》,成果,character
+R345,《禽病学 第9版》,成果,character
+R346,《禽病学 第10版》,成果,character
+R347,《禽病学 第11版》,成果,character
+R348,《禽病学 第12版》,成果,character
+R349,《微生物学案头百科》,成果,character
+R35,1992年5月-2002年12月 广州医学院 院长、党委书记,履历,character
+R350,《病毒学家 田波院士》,成果,character
+R351,《病原微生物实验室生物安全培训指南》,成果,character
+R352,广东省,城市,character
+R353,2017年第三届树兰医学奖,事件,character
+R354,2016年首届“全国杰出科技人才”奖,事件,character
+R355,2015年 何梁何利基金科学与技术进步奖,事件,character
+R356,2016年 首届“全国杰出科技人才”奖,事件,character
+R357,2017年 第三届树兰医学奖,事件,character
+R358,2015年 第十六届吴阶平-保罗·杨森医学药学奖 ,事件,character
+R359,2015年 中国科学院杰出科技成就奖（个人奖）,事件,character
+R36,1996年5月 中国工程院 院士,履历,character
+R360,2014年9月 第七届谈家桢生命科学成就奖,事件,character
+R361,2014年 第19届日本日经亚洲奖,事件,character
+R362,2012年 发展中国家科学院 基础医学奖,事件,character
+R363,2010年 中国侨界（创新人才）贡献奖	 ,事件,character
+R364,2008年 第一届谈家桢生命科学创新奖,事件,character
+R365,2008年 Thomson Reuters Research Fronts Awards,事件,character
+R366,1988年 中国科学技术协会中国青年科技奖,事件,character
+R367,发展中国家科学院基础医学奖,奖项,character
+R368,首届“全国杰出科技人才”奖,奖项,character
+R369,中国侨界（创新人才）贡献奖,奖项,character
+R37,2013年7月至今 广州呼吸疾病研究所 所长,履历,character
+R370,第一届谈家桢生命科学创新奖,奖项,character
+R371,中国科学院杰出科技成就奖（个人奖）,奖项,character
+R372,第19届日本日经亚洲奖,奖项,character
+R373,Thomson Reuters Research Fronts Awards,奖项,character
+R374,第三届树兰医学奖,奖项,character
+R375, 中国科学技术协会中国青年科技奖,奖项,character
+R376,第十六届吴阶平-保罗·杨森医学药学奖,奖项,character
+R377,第七届谈家桢生命科学成就奖,奖项,character
+R378,何梁何利基金科学与技术进步奖,奖项,character
+R379,2008年 “抗震救灾医药卫生先进个人”荣誉称号；,事件,character
+R38,2020年1月20日 国家卫健委 高级别专家组组长,履历,character
+R380,2017年 “2016—2017流行季H7N9防控工作先进个人”荣誉称号；,事件,character
+R381,2020年 武汉市人社局给予张定宇同志记功奖励,事件,character
+R382,眼科,领域,character
+R383,我认为我不属于造谣，我是在提醒大家注意防范。,言论,character
+R384,新型冠状病毒感染,事件,character
+R385,《埃博拉病毒糖蛋白结合内吞体受体NPC1的分子机制》,成果,character
+R386,《在分子水平上研究空气传播禽流感病毒的 H5血凝素》,成果,character
+R387,《现代呼吸病进展》,成果,character
+R388,《解读急性传染性非典型肺炎预防与对策》 ,成果,character
+R389,《病毒学原理 分子生物学 第3版》,成果,character
+R39,2020年1月21日 新型冠状病毒联防联控工作机制科研攻关组组长,履历,character
+R390,《核武器及放射损伤医学防治学》,成果,character
+R391,过劳,事件,character
+R392,章良志,人物,character
+character_sR50,江苏省沛县,Character_String,character
+character_sR51,男,Character_String,character
+character_dR26,2020-02-01,Character_Date,character
+character_dR27,1994-05-01,Character_Date,character
+character_sR52,汉,Character_String,character
+R393,陈在华,人物,character
+character_sR53,安徽省淮南市,Character_String,character
+character_sR54,男,Character_String,character
+character_dR28,2020-02-03,Character_Date,character
+character_sR55,unknown,Character_String,character
+character_sR56,汉,Character_String,character
+R394,程建阳,人物,character
+character_sR57,河南省汝州市,Character_String,character
+character_sR58,男,Character_String,character
+character_dR29,2020-01-30,Character_Date,character
+character_sR59,汉,Character_String,character
+R395,崔嵬,人物,character
+character_sR60,河南省太康市,Character_String,character
+character_sR61,男,Character_String,character
+character_dR30,2020-01-16,Character_Date,character
+character_dR31,1971-08-01,Character_Date,character
+character_sR62,汉,Character_String,character
+R397,黄汉明,人物,character
+character_sR63,湖北省安陆市,Character_String,character
+character_sR64,男,Character_String,character
+character_dR32,2020-02-01,Character_Date,character
+character_sR65,汉,Character_String,character
+R398,姜娜,人物,character
+character_sR66,吉林省松原市,Character_String,character
+character_sR67,女,Character_String,character
+character_dR33,2020-02-04,Character_Date,character
+character_dR34,1979-05-01,Character_Date,character
+character_sR68,汉,Character_String,character
+R399,蒋金波,人物,character
+character_sR69,江西省赣州市,Character_String,character
+character_sR70,男,Character_String,character
+character_dR35,2020-01-28,Character_Date,character
+character_sR71,汉,Character_String,character
+R40,广东省科技进步三等奖,奖项,character
+character_sR72,三等奖,Character_String,character
+R400,李弦,人物,character
+character_sR73,山东省泰安市,Character_String,character
+character_sR74,男,Character_String,character
+character_dR36,2020-01-23,Character_Date,character
+character_dR37,1982-06-01,Character_Date,character
+character_sR75,汉,Character_String,character
+R401,梁武东,人物,character
+character_sR76,湖北省,Character_String,character
+character_sR77,男,Character_String,character
+character_dR38,2020-01-25,Character_Date,character
+character_dR39,1959-03-01,Character_Date,character
+character_sR78,汉,Character_String,character
+R402,马承武,人物,character
+character_sR79,湖北省荆州市,Character_String,character
+character_sR80,男,Character_String,character
+character_dR40,2020-01-31,Character_Date,character
+character_sR81,汉,Character_String,character
+R403,孙训祥,人物,character
+character_sR82,安徽省太湖县,Character_String,character
+character_sR83,男,Character_String,character
+character_dR41,2020-02-04,Character_Date,character
+character_sR84,汉,Character_String,character
+R404,尹祖川,人物,character
+character_sR85,四川省重庆市,Character_String,character
+character_sR86,男,Character_String,character
+character_dR42,2020-01-29,Character_Date,character
+character_dR43,1972-08-24,Character_Date,character
+character_sR87,汉,Character_String,character
+R405,张辉,人物,character
+character_sR88,湖南省湘潭市,Character_String,character
+character_sR89,男,Character_String,character
+character_dR44,2020-02-01,Character_Date,character
+character_dR45,1963-03-31,Character_Date,character
+character_sR90,汉,Character_String,character
+R406,张新忠,人物,character
+character_sR91,山东省菏泽市,Character_String,character
+character_sR92,男,Character_String,character
+character_dR46,2020-01-25,Character_Date,character
+character_dR47,1964-09-01,Character_Date,character
+character_sR93,汉,Character_String,character
+R407,安徽淮南大通区城管局大通街道中队 副中队长,履历,character
+R408,副中队长,职务,character
+R409,安徽淮南大通区城管局大通街道中队,机构,character
+R41,广州市科技成果一等奖,奖项,character
+character_sR94,一等奖,Character_String,character
+R410,过劳-心梗,事件,character
+R411,河南省汝州市公安局 大队长,履历,character
+R412,大队长,职务,character
+R413,河南省汝州市公安局,机构,character
+R414,过劳-脑溢血,事件,character
+R415,山东临沂市公安局 民警,履历,character
+R416,山东临沂市公安局,机构,character
+R417,四川眉山天府新区高家镇英头村 党支部书记,履历,character
+R418,四川眉山天府新区高家镇英头村,机构,character
+R419,过劳-脑出血,事件,character
+R42,中国卫生部重大科技成果三等奖,奖项,character
+character_sR95,三等奖,Character_String,character
+R420,湖北安陆水寨村 党支部书记,履历,character
+R421,湖北安陆水寨村	,机构,character
+R422,松原市长岭县七号镇 党委副书记,履历,character
+R423,松原市长岭县七号镇,机构,character
+R424,江西省赣州市大余县疾病预防控制中心 医师,履历,character
+R425,医师,职务,character
+R426,江西省赣州市大余县疾病预防控制中心,机构,character
+R427,山东省泰安市公安局泰山分局中队 指导员,履历,character
+R428,指导员,职务,character
+R429,山东省泰安市公安局泰山分局中队,机构,character
+R43,广东省科学技术二等奖,奖项,character
+character_sR96,二等奖,Character_String,character
+R430,湖北省新华医院 医生,履历,character
+R431,湖北省新华医院,机构,character
+R432,新冠感染,事件,character
+R433,湖北石首小河口镇中洲村 村干部,履历,character
+R434,村干部,职务,character
+R435,湖北石首小河口镇中洲村,机构,character
+R436,太湖县前进村 党总支副书记,履历,character
+R437,党总支副书记,职务,character
+R438,太湖县前进村,机构,character
+R439,过劳-心脏衰竭,事件,character
+R44,广州市科学技术进步一等奖,奖项,character
+character_sR97,一等奖,Character_String,character
+R440,长江航运公安局宜昌分局治安管理支队 支队长,履历,character
+R441,支队长,职务,character
+R442,长江航运公安局宜昌分局治安管理支队,机构,character
+R443,湖南省卫生计生综合监督局 党委书记、局长,履历,character
+R444,局长,职务,character
+R445,湖南省卫生计生综合监督局,机构,character
+R446,东明县公安局看守所 所长,履历,character
+R447,东明县公安局看守所,机构,character
+R448,过劳-心脏疾病,事件,character
+R449,江苏徐州沛县五段派出所 辅警,履历,character
+R45,广州市科学技术进步二等奖,奖项,character
+character_sR98,二等奖,Character_String,character
+R450,江苏徐州沛县五段派出所,机构,character
+R451,巡查取缔辖区主次干道活禽交易市场，关停饮食摊群点，宣传疫情防控科学知识和政策等,事件,character
+R452,社会治安稳定疫情防控专班的相关负责人,事件,character
+R453,陈在华连续奋战多日，每天工作时长都在10小时以上，充分发挥了党员干部的先锋模范带头作用。,事迹,character
+R454,从警23年，程建阳先后荣立个人三等功1次，获得个人嘉奖2次，多次受到汝州市、平顶山市党委、政府和河南省公安厅表彰。2017年9月，程建阳被中共河南省委授予“人民满意的政法干警”荣誉称号。,事迹,character
+R455,从事治安管理和安保维稳等工作,事件,character
+R456,三十多年的从军、从警生涯，他对党绝对忠诚，对人民高度负责，对事业有着强烈的使命感和责任感。他认真负责、任劳任怨、执着追求，多次受到表彰奖励。,事迹,character
+R457,宣传疫情防控工作,事件,character
+R458,疫情防控工作开展以来，黄汉明坚持奔走在一线；途中累倒后去医院接受过检查，医生建议住院治疗。时刻牵挂着工作的黄汉明坚持回村,事迹,character
+R459,宣传防控知识,事件,character
+R46,中国国家级教学成果二等奖,奖项,character
+character_sR99,二等奖,Character_String,character
+R460,2020年2月18日，全国妇联决定追授姜娜同志为“全国三八红旗手”称号,事迹,character
+R461,负责到隔离病房进行流行病学调查，调查病例的基本情况、发病就诊经过、暴露史，确定密切接触者和可疑暴露者，防止疫情扩散，为查明疫情发生的原因和传播途径提供详实的资料数据。,事件,character
+R462,他几十年如一日爱岗敬业，勤勤恳恳，默默奉献，忠诚履行了一名“人民疾控卫士”的神圣职责，用自己的实际行动诠释责任和担当，在疾控工作岗位上贡献了全部的力量。,事迹,character
+R463,开展有关违法案件网络侦查工作,事件,character
+R464,2011年1月4日，泰安市发生了“1.04”持枪杀人案件，李弦驾车追击持枪歹徒； ,事迹,character
+R465,2019年5月12日，在接到举报“有人准备在全国春季高考中作弊”的重大敏感线索后，李弦连夜奔赴济南、烟台等地将犯罪嫌疑人抓捕归案,事迹,character
+R466,播放疫情防控宣传信息，村内排查、劝导工作,事件,character
+R467,2016年以来，前进村实现脱贫244户782人、累计完成了30余公里道路硬化、改造了全村22个村民小组的电网、盘活40亩水面发展水产养殖……在前进村实现乡村振兴的道路上始终都有孙训祥的身影,事迹,character
+R468,新型冠状病毒感染的肺炎疫情防控专项督导,事件,character
+R469,2020年1月19日至21日，张辉带队奔赴长沙、岳阳两地开展新型冠状病毒感染的肺炎疫情防控专项督导。 ,事迹,character
+R47,《呼吸病学 第2版》,书籍,character
+R470,2020年1月28日至 29日，他又带队对湖南中大中雅医药科技有限公司及长沙华康消毒剂有限公司2家生产消毒剂的消毒产品生产企业进行卫生监督检查。,事迹,character
+R471,随着新型冠状病毒感染的肺炎疫情突发，他不顾个人安危，心系同事和在押人员，更是吃住在所，身先士卒冲锋在第一线，第一时间召开专题会安排部署，及时对全体在押人员全面体检,事迹,character
+R472,宣传防疫工作，对辖区街面商铺进行登记排查，呼吁村民抗击疫情,事件,character
+R473,2018年5月入职，协助民警侦破刑事案件15宗，抓获各类违法犯罪份子85人，制止飙车交通违法行为就有10余起。,事迹,character
+R474,2020年农历大年初一（1月25日）起，加入抗击新型冠状病毒肺炎岳临高速东湖高速路口收费站体温检测排查团队，每天坚持值班，并且负责马迹卫生院仓库医疗物资分发，连续十天九夜奋斗在防控一线。,事迹,character
+R476,安排部署看守所疫情防控工作,事件,character
+R477,过劳-心源性猝死,事件,character
+R478,接诊新冠病患,事件,character
+R479,感染新型冠状病毒,事件,character
+R48,《临床路径释义  感染性疾病分册2018年版》,书籍,character
+R480,郑少华,人物,character
+character_sR100,四川省眉山市,Character_String,character
+character_sR101,男,Character_String,character
+character_dR48,2020-02-03,Character_Date,character
+character_sR102,汉,Character_String,character
+R481,2013年10月起，任高家镇英头村党支部书记。7年来，他为村上争取到中央、省上扶持集体经济项目资金100万元。,事迹,character
+R482,2019年被评为“高家镇优秀党支部书记”。,事迹,character
+R483,每天宣传防疫知识，看望隔离群众，开展返乡人员排查，汇总疫情,事件,character
+R484,2019年12月30日，向外界发出防护预警，而被称为疫情“吹哨人”。,事迹,character
+R485,抗击新型冠状病毒感染的肺炎疫情,事件,character
+R486,武汉中心医院 眼科医生,履历,character
+R487,疫情防控值班,事件,character
+R488,1993年7月参加公安工作，历任长江航运公安局宜昌分局宜昌港客运派出所科员、秭归派出所副所长、治安管理支队副支队长、三峡船闸派出所副所长、巴东派出所教导员、治安管理支队支队长等职务。,事迹,character
+R489,先后被评为“交通港航公安系统优秀人民警察”“湖北省青年岗位能手”等称号，荣立个人三等功3次,事迹,character
+R49,《不明原因慢性咳嗽的病因分布及诊断程序的建立》,文章,character
+character_dR49,2006-02-12,Character_Date,character
+R490,春节值班和防控新型冠状病毒肺炎疫情,事件,character
+R491,张继先,人物,character
+character_sR103,湖北武汉,Character_String,character
+character_sR104,女,Character_String,character
+character_sR105,汉,Character_String,character
+R492,呼吸系统疾病,领域,character
+R493,中医学,领域,character
+R494,预防医学与卫生学,领域,character
+R495,2003年抗击“非典”，作为江汉区专家组的成员下到各个医院排查疑似者。,事件,character
+R496,2019年12月27日，张继把这四个人的情况向业务院长夏文广、医院院感办和医务部作了汇报，医院立即上报给江汉区疾控中心。,事件,character
+R498,2019年12月27日，张继先把这四个人的情况向业务院长夏文广、医院院感办和医务部作了汇报，医院立即上报给江汉区疾控中心。,事件,character
+R50,《广东部分地区慢性阻塞性肺疾病发病状况调查》,文章,character
+R509,《复方甲氧那明联合自拟宣肺止咳汤治疗亚急性咳嗽的疗效观察》,文章,character
+character_dR50,2019-10-23,Character_Date,character
+R51,《不明原因慢性咳嗽的诊断探讨》,文章,character
+R510,《人造石英石作业工人肺功能检测结果分析》,文章,character
+character_dR51,2019-10-15,Character_Date,character
+R511,《职业性硬金属肺病1例报道》,文章,character
+character_dR52,2018-07-16,Character_Date,character
+R512,《噻托溴铵联合无创呼吸机治疗COPD合并Ⅱ型呼吸衰竭的效果及对患者血清TNF-α、IL-27、CRP和氧合功能的影响》,文章,character
+character_dR53,2018-03-08,Character_Date,character
+R513,《无创通气联合中医辨证治疗间质性肺炎的临床疗效及安全性》,文章,character
+character_dR54,2017-10-25,Character_Date,character
+R514,《气管镜在气管切开患者拔管中的应用》,文章,character
+character_dR55,2017-07-25,Character_Date,character
+R515,《布地奈德序贯吸入治疗咳嗽变异性哮喘的临床疗效及其对患者气道炎性反应的影响》,文章,character
+character_dR56,2017-07-25,Character_Date,character
+R516,《慢性阻塞性肺疾病急性加重患者接种流感疫苗和肺炎疫苗效果观察》,文章,character
+character_dR57,2017-05-10,Character_Date,character
+R517,《降钙素原检测在慢性阻塞性肺疾病急性加重期患者中的诊断价值》,文章,character
+character_dR58,2016-11-25,Character_Date,character
+R518,《利巴韦林注射液联合痰热清超声雾化治疗流感病毒感染致病毒性肺炎的临床疗效》,文章,character
+character_dR59,2016-04-25,Character_Date,character
+R519,《临床合理用药杂志》,期刊,character
+R52,《 连花清瘟胶囊体外抗甲型流感病毒的实验研究》,文章,character
+R520,《 中国预防医学杂志》,期刊,character
+R521,《中国职业医学》,期刊,character
+R522,《 中国当代医药》,期刊,character
+R523,《 临床肺科杂志》,期刊,character
+R524,《预防医学》,期刊,character
+R525,《 临床合理用药杂志》,期刊,character
+R527,范存愈,人物,character
+R529,王一惠,人物,character
+R53,《感冒后咳嗽敏感性及气道神经源性炎症改变》,文章,character
+R531,吕隽,人物,character
+R532,刘旭,人物,character
+R535,王星翘,人物,character
+R537,孙震,人物,character
+R538,“不管怎么说，我们多穿一层，对自己防护就好一点。”,言论,character
+R539,我从那个时候就认识到什么叫公共事件、什么叫群体事件。,言论,character
+R54,《慢性阻塞性肺疾病在中国》,文章,character
+R540,“医生看病，要问患者的住址、职业，这一下来了四个华南海鲜市场的，怎么会没有问题？“这就是SARS时期锻炼出来的思维。”,言论,character
+R541,“医护工作者肩负着治病救人的使命。”,言论,character
+R542,“尤其是要注意与病人的沟通方式，要尽量用病人听得懂的话语与他们交流，减轻他们的心理负担，形成良好的医患关系。”,言论,character
+R543,2003年抗击”非典“，作为江汉区专家组的成员，下到各个医院排查疑似者。,事迹,character
+R544,2020年12月28日、29日，及时把四人的情况向医院领导汇报，医院迅速上报江汉区疾控中心。武汉市疾控中心、金银潭医院和江汉区疾控中心前来，开始流行病学调查。,事迹,character
+R545,1998年3月-2008年3月   浙江省卫生厅厅长、党组书记。,履历,character
+R546,2005年至今  中国工程院院士,履历,character
+R547,湖北武汉,城市,character
+R549,鲁翔,人物,character
+character_sR106,男,Character_String,character
+R55,《临床路径释义 感染性疾病分册2018年版》,成果,character
+R550,江苏援黄石医疗支援队,救援队,character
+character_dR60,2020-02-11,Character_Date,character
+R551,南京医科大学,机构,character
+R552,南京医科大学附属逸夫医院,机构,character
+R553,副校长,职务,character
+R556,吴红辉,人物,character
+character_sR107,男,Character_String,character
+R557,江苏省卫健委,机构,character
+R559,湖北省黄石市,城市,character
+R56,武汉,城市,character
+R560,谢宏超,人物,character
+character_sR108,男,Character_String,character
+R561,吴雷,人物,character
+character_sR109,男,Character_String,character
+R562,黄英姿,人物,character
+character_sR110,女,Character_String,character
+R563,蒋银珠,人物,character
+character_sR111,女,Character_String,character
+R564,魏瑜,人物,character
+character_sR112,女,Character_String,character
+R565,史志雪,人物,character
+character_sR113,女,Character_String,character
+R566,高娟,人物,character
+character_sR114,女,Character_String,character
+R567,徐婷婷,人物,character
+character_sR115,女,Character_String,character
+R568,王任重,人物,character
+character_sR116,男,Character_String,character
+R570,江苏省肿瘤医院,机构,character
+R572,东南大学附属中大医院,机构,character
+R574,南京市儿童医院,机构,character
+R575,江苏省中医院,机构,character
+R576,江苏省中医院呼吸科副主任,履历,character
+R577,江苏省中医院呼吸科护士长,履历,character
+R578,江苏省中医院护士,履历,character
+R579,江苏省中医院重症医学科护士,履历,character
+R58,深圳,城市,character
+R580,南京市儿童医院感染性疾病科护士长、主管护师,履历,character
+R581,东南大学附属中大医院副院长、重症医学专家,履历,character
+R582,江苏省肿瘤医院护士,履历,character
+R583,南京医科大学校长,履历,character
+R584,南京医科大学附属逸夫医院院长,履历,character
+R585,江苏省卫健委健康促进处处长,履历,character
+R586,齐栩,人物,character
+character_sR117,男,Character_String,character
+R587,刘云,人物,character
+character_sR118,男,Character_String,character
+R588,吴超,人物,character
+character_sR119,男,Character_String,character
+R589,吴军伟,人物,character
+character_sR120,男,Character_String,character
+R59,新型肺炎,疾病,character
+R590,第七批江苏援湖北医疗队,救援队,character
+character_dR61,2020-02-13,Character_Date,character
+R591,江苏省人民医院呼吸科主任医师,履历,character
+R592,江苏省人民医院,机构,character
+R593,江苏省人民医院副院长,履历,character
+R595,南京鼓楼医院副院长、感染科专家,履历,character
+R596,南京鼓楼医院,机构,character
+R597,徐州贾汪区人民医院护士,履历,character
+R598,徐州贾汪区人民医院,机构,character
+R599,吴燕洁,人物,character
+character_sR121,女,Character_String,character
+R60, 重症急性呼吸综合征,疾病,character
+R600,张为华,人物,character
+character_sR122,女,Character_String,character
+R601,罗月英,人物,character
+character_sR123,女,Character_String,character
+R602,重庆医疗队,救援队,character
+character_dR62,2020-02-26,Character_Date,character
+R603,湖北省孝感市,城市,character
+R604,重庆市急救医疗中心肿瘤科护师,履历,character
+R605,重庆市急救医疗中心肿瘤科,机构,character
+R606,重庆医科大学附属第一医院,履历,character
+R607,重庆医科大学附属第一医院护师,履历,character
+R608,重庆医科大学附属第一医院,机构,character
+R609,重庆医科大学附属第一医院妇科护士长,履历,character
+R61,广东,城市,character
+R610,李世龙,人物,character
+character_sR124,男,Character_String,character
+R611,西安国际医学中心医院,机构,character
+R612,西安国际医学中心医院援鄂医疗队,救援队,character
+character_dR63,2020-02-03,Character_Date,character
+R613,谭锦柯,人物,character
+character_sR125,女,Character_String,character
+R614,陈旭,人物,character
+character_sR126,男,Character_String,character
+R615,吴峥明,人物,character
+character_sR127,男,Character_String,character
+R616,郝铁蛋,人物,character
+character_sR128,男,Character_String,character
+R617,卫晶,人物,character
+character_sR129,女,Character_String,character
+R618,李硕,人物,character
+character_sR130,女,Character_String,character
+R619,徐英辉,人物,character
+character_sR131,男,Character_String,character
+R62,组公关组组长,职务,character
+R620,付雪莹,人物,character
+R621,曹赛,人物,character
+character_sR132,女,Character_String,character
+R622,杨辉莉,人物,character
+character_sR133,女,Character_String,character
+R623,庄燕娟,人物,character
+character_sR134,女,Character_String,character
+R624,姜斐,人物,character
+character_sR135,女,Character_String,character
+R625,吴玲玲,人物,character
+character_sR136,女,Character_String,character
+R626,甘肃省第二人民医院骨科主管护师,履历,character
+R627,甘肃省第二人民医院,机构,character
+R628,甘肃省第二批援鄂护理专业医疗队,救援队,character
+character_dR64,2020-02-04,Character_Date,character
+R629,浙江大学医学院附属邵逸夫医院,机构,character
+R63,专家组组长,职务,character
+R630,浙江省对口支援湖北省荆门市首批医疗队,救援队,character
+character_dR65,2020-02-12,Character_Date,character
+R631,湖北省荆门市,城市,character
+R632,浙江省德清县人民医院主治医师,履历,character
+R633,浙江省德清县人民医院,机构,character
+R635,山西白求恩医院护士,履历,character
+R636,山西白求恩医院,机构,character
+R637,山西省第三批驰援湖北医疗队,救援队,character
+character_dR66,2020-02-05,Character_Date,character
+R638,山西省第二批医疗队,救援队,character
+character_dR67,2020-02-02,Character_Date,character
+R639,天津医科大学总医院呼吸科医生,履历,character
+R64,国家卫健委,机构,character
+R640,天津医科大学总医院,机构,character
+R641,天津医疗队,救援队,character
+character_dR68,2020-01-26,Character_Date,character
+R642,大连医科大学附属第一医院主任医师,履历,character
+R643,大连医科大学附属第一医院,机构,character
+R644,辽宁医疗队,救援队,character
+character_dR69,2020-02-09,Character_Date,character
+R645,北京大学国际医院急诊科医生,履历,character
+R646,北京大学国际医院,机构,character
+R647,北京大学国际医院支援湖北抗疫国家医疗队,救援队,character
+character_dR70,2020-02-06,Character_Date,character
+R648,南方医科大学南方医院医生,履历,character
+R649,南方医科大学南方医院,机构,character
+R65,研究所所长,职务,character
+R650,广东首批支援湖北荆州应对新冠肺炎医疗队,救援队,character
+character_dR71,2020-02-10,Character_Date,character
+R651,湖北荆州,城市,character
+R652,江西援助武汉医疗护理队,救援队,character
+character_dR72,2020-02-04,Character_Date,character
+R653,福州儿童医院,机构,character
+R654,福州儿童医院普外科护师,履历,character
+R655,福建省援助湖北护理专业医疗队,救援队,character
+character_dR73,2020-02-04,Character_Date,character
+R656,江苏省肿瘤医院重症监护室护士,履历,character
+R657,江苏第三批医疗队,救援队,character
+character_dR74,2020-02-02,Character_Date,character
+R658,上海市奉贤区中心医院护士,履历,character
+R659,上海市奉贤区中心医院,机构,character
+R66,广州呼吸疾病研究所,机构,character
+R660,上海医疗队,救援队,character
+character_dR75,2020-01-27,Character_Date,character
+R662,广州市八医院,城市,character
+R664,黎毅敏,人物,character
+character_sR137,男,Character_String,character
+R665,余裕恒,人物,character
+character_sR138,男,Character_String,character
+R666,吴思敏,人物,character
+character_sR139,女,Character_String,character
+R667,广医附属第一医院主任医师，副院长,履历,character
+R668,广医附属第一医院,机构,character
+R669,广医附属第一医院重症医学科医生,履历,character
+R67,广州医学院,机构,character
+R670,广医附属第一医院重症医学科护士,履历,character
+R671,广医支援市八医院医疗队,救援队,character
+character_dR76,2020-02-07,Character_Date,character
+R672,广医支援武汉医疗队,救援队,character
+character_dR77,2020-02-07,Character_Date,character
+R673,温德良,人物,character
+character_sR140,男,Character_String,character
+R674,蒋凌志,人物,character
+character_sR141,男,Character_String,character
+R675,陈维校,人物,character
+character_sR142,男,Character_String,character
+R676,黎江,人物,character
+character_sR143,男,Character_String,character
+R677,王玉丽,人物,character
+character_sR144,男,Character_String,character
+R678,高元妹,人物,character
+character_sR145,女,Character_String,character
+R679,毕赐成,人物,character
+character_sR146,男,Character_String,character
+R68,院长,职务,character
+R680,段业英,人物,character
+character_sR147,女,Character_String,character
+R681,方向明,人物,character
+character_sR148,男,Character_String,character
+R682,李德富,人物,character
+character_sR149,男,Character_String,character
+R683,何欢,人物,character
+character_sR150,男,Character_String,character
+R684,冯国勇,人物,character
+character_sR151,男,Character_String,character
+R685,韦伊尔,人物,character
+character_sR152,男,Character_String,character
+R687,黄汝梁,人物,character
+character_sR153,男,Character_String,character
+R688,王镜成,人物,character
+character_sR154,男,Character_String,character
+R689,广医附属第二医院重症医学科副主任医师,履历,character
+R69,党委书记,职务,character
+R690,广医附属第二医院,机构,character
+R691,广医附属第二医院副主任医师,履历,character
+R692,广医附属第二医院医师,履历,character
+R693,广医附属第二医院主管护师,履历,character
+R694,广医附属第三医院呼吸与危重症医学科副主任医师,履历,character
+R695,广医附属第三医院,机构,character
+R696,广医附属第三医院重症医学科主管护师,履历,character
+R697,广医附属第三医院重症医学科护师,履历,character
+R698,广医附属第五医院呼吸内科主治医师,履历,character
+R699,广医附属第五医院,机构,character
+R70,中国工程院,机构,character
+R700,广医附属第五医院主管护师,履历,character
+R701,广医附属第五医院医师,履历,character
+R702,广医附属第五医院护师,履历,character
+R704,广医附属肿瘤医院重症医学科副主任医师,履历,character
+R707,广医附属肿瘤医院主治医师,履历,character
+R708,广医附属肿瘤医院	,机构,character
+R71,院士,职务,character
+R710,广医附属肿瘤医院主管护师,履历,character
+R711,广医附属肿瘤医院护师,履历,character
+R712,李仕成 ,人物,character
+R713,广医,救援队,character
+R714,汤灵玲,人物,character
+character_sR155,女,Character_String,character
+R715,朱梦飞,人物,character
+character_sR156,男,Character_String,character
+R716,张园园,人物,character
+character_sR157,女,Character_String,character
+R717,刘元春,人物,character
+character_sR158,女,Character_String,character
+R718,树兰（杭州）医院紧急医疗队,救援队,character
+character_dR78,2020-02-01,Character_Date,character
+R719,树兰（杭州）医院副院长,履历,character
+R72,《转基因因子研究》,文章,character
+R720,树兰（杭州）医院,机构,character
+R721,树兰（杭州）医院监护室护士长,履历,character
+R722,树兰（杭州）医院人工肝专科护士,履历,character
+R723,张峰,人物,character
+character_sR159,男,Character_String,character
+R724,邵凌云,人物,character
+character_sR160,女,Character_String,character
+R725,张继明,人物,character
+character_sR161,男,Character_String,character
+R726,尹有宽,人物,character
+character_sR162,男,Character_String,character
+R727,施光峰,人物,character
+character_sR163,男,Character_String,character
+R728,秦艳丽,人物,character
+character_sR164,女,Character_String,character
+R729,陈明泉,人物,character
+character_sR165,男,Character_String,character
+R73,《创建防治结合型全科医学人才培养模式，推动社区卫生服务可持续发展》,文章,character
+R730,朱利平,人物,character
+character_sR166,男,Character_String,character
+R731,徐肇玥,人物,character
+character_sR167,女,Character_String,character
+R732,蒋卫明,人物,character
+character_sR168,男,Character_String,character
+R733,翁心华,人物,character
+character_sR169,女,Character_String,character
+R734,卢洪洲,人物,character
+character_sR170,男,Character_String,character
+R735,卢清,人物,character
+character_sR171,男,Character_String,character
+R736,李宁,人物,character
+character_sR172,男,Character_String,character
+R737,黄玉仙,人物,character
+character_sR173,男,Character_String,character
+R738,章婉琴,人物,character
+character_sR174,女,Character_String,character
+R739,陈澍,人物,character
+character_sR175,男,Character_String,character
+R740,金嘉琳,人物,character
+character_sR176,女,Character_String,character
+R741,张舒,人物,character
+character_sR177,女,Character_String,character
+R742,吴吉芹,人物,character
+character_sR178,女,Character_String,character
+R743,黄翀,人物,character
+character_sR179,男,Character_String,character
+R744,郑建铭,人物,character
+character_sR180,男,Character_String,character
+R745,复旦大学附属华山医院感染科主治医师,履历,character
+R746,复旦大学附属华山医院感染科主任医师,履历,character
+R747,复旦大学附属华山医院感染科副主任医师,履历,character
+R75,《SARS冠状病毒灭活疫苗及相关研究》,文章,character
+R750,复旦大学附属华山医院感染科住院医师,履历,character
+R751,周海兰,人物,character
+character_sR181,女,Character_String,character
+R752,张建生,人物,character
+character_sR182,男,Character_String,character
+R753,李霞,人物,character
+character_sR183,女,Character_String,character
+R754,柏涛,人物,character
+character_sR184,男,Character_String,character
+R755,武汉金银潭医院,机构,character
+R756,武汉金银潭医院感染科副主任医师,履历,character
+R757,武汉金银潭医院感染科主治医师,履历,character
+R758,凌瑞杰,人物,character
+character_sR185,男,Character_String,character
+R76,《哮喘及气道高反应性》,文章,character
+R760,余贻汉,人物,character
+character_sR186,男,Character_String,character
+R761,尹琴,人物,character
+character_sR187,女,Character_String,character
+R762,肖显俊,人物,character
+character_sR188,男,Character_String,character
+R763,张静,人物,character
+character_sR189,女,Character_String,character
+R764,杨洁,人物,character
+character_sR190,女,Character_String,character
+R765,何聪,人物,character
+character_sR191,男,Character_String,character
+R766,梅丽,人物,character
+character_sR192,女,Character_String,character
+R767,谢姣,人物,character
+character_sR193,女,Character_String,character
+R768,李松明,人物,character
+character_sR194,女,Character_String,character
+R769,李凤琴,人物,character
+character_sR195,女,Character_String,character
+R77,《应用siRNA策略研制预防和治疗SARS疾病特效药动物实验》,文章,character
+R770,湖北省中西医结合医院呼吸与危重症医学科主任医师,履历,character
+R771,湖北省中西医结合医院,机构,character
+R772,湖北省中西医结合医院呼吸与危重症医学科副主任医师,履历,character
+R773,湖北省中西医结合医院呼吸与危重症医学科住院医师,履历,character
+R774,湖北省中西医结合医院呼吸与危重症医学科主治医师,履历,character
+R775,《H7N9禽流感病毒裂解佐剂(MF59)疫苗的长期免疫原性研究》,文章,character
+character_dR79,2019-09-11,Character_Date,character
+R776,《人体微生态与感染性疾病的研究进展》,文章,character
+character_dR80,2017-07-28,Character_Date,character
+R777,《我国感染病学发展战略研究》,文章,character
+character_dR81,2017-04-15,Character_Date,character
+R778,《人体微生态与健康和疾病》,文章,character
+character_dR82,2017-04-01,Character_Date,character
+R779,徐辉,人物,character
+character_sR196,江苏宜兴,Character_String,character
+character_sR197,女,Character_String,character
+character_dR83,2020-02-07,Character_Date,character
+character_dR84,1968-04-01,Character_Date,character
+character_sR198,汉,Character_String,character
+R78,《慢性咳嗽的病因诊断程序、发病机制及其治疗研究》,文章,character
+R780,从事医院新冠病毒防治工作,事件,character
+R781,江苏宜兴,城市,character
+R783,南京市中医院  党委委员、副院长,履历,character
+R784,新型冠状病毒感染的肺炎防治指挥部  小组组长,履历,character
+R785,江苏省中西医结合学会围产分会  委员,履历,character
+R786,黄和艳,人物,character
+character_sR199,女,Character_String,character
+character_dR85,2020-02-02,Character_Date,character
+character_dR86,1977-09-01,Character_Date,character
+character_sR200,汉,Character_String,character
+R787,"走访排查群众，开展疫情防控宣传,保障营上村村民生命安全和身体健康",事件,character
+R788,贵州省黔南州贵定县云雾镇社区综合服务中心  干部,履历,character
+R789,云雾镇营上村同步小康驻村工作队  队员,履历,character
+R79,《GD微型最高呼气流速仪》,文章,character
+R790,镇妇联  兼职副主席,履历,character
+R791,2020年2月18日，全国妇联决定追授黄和艳同志为“全国三八红旗手”称号,事迹,character
+R792,2020年2月18日，全国妇联决定追授徐辉同志为“全国三八红旗手”称号,事迹,character
+R793,钟淑卿,人物,character
+R794,何梦章,人物,character
+R795,朱彤,人物,character
+R796,朱礼星,人物,character
+R797,冉丕鑫,人物,character
+R798,王小平,人物,character
+R80,广州,城市,character
+R801,《H7N9禽流感病毒裂解佐剂(MF59)疫苗的长期免疫原性研究》,文章,character
+R802,严人,人物,character
+R803,江慧勇,人物,character
+R804,张伯礼,人物,character
+R805,徐建国,人物,character
+R806,杜维波,人物,character
+R807,肖永红,人物,character
+R808,马伟杭,人物,character
+R809,张建中,人物,character
+R81,北京,城市,character
+R810,张俊华,人物,character
+R811,石鼎,人物,character
+R812,《浅表淋巴结细针穿刺涂片及培养快速确诊马尔尼菲青霉菌病》,文章,character
+character_dR87,2017-10-26,Character_Date,character
+R813,《中国艾滋病性病》,期刊,character
+R814,陈蓉,人物,character
+R815,阮连国,人物,character
+R816,张立新,人物,character
+R817,万利霞,人物,character
+R818,刘婷,人物,character
+R819,《 艾滋病合并浆母细胞淋巴瘤1例》,文章,character
+character_dR88,2019-05-26,Character_Date,character
+R82,人名卫生出版社,机构,character
+R820,《中国艾滋病性病 》,期刊,character
+R821,《 武汉市≥50岁HIV/AIDS病人抗病毒治疗效果分析》,文章,character
+character_dR89,2019-11-26,Character_Date,character
+R822,刘建忠,人物,character
+R823,刘薇,人物,character
+R824,罗燕和,人物,character
+R825,余晓丽,人物,character
+R826,刘莉,人物,character
+R827,王先广,人物,character
+R83,中国协和医科大学出版社,机构,character
+R84,赖克方,人物,character
+R85,陈如冲,人物,character
+R86,"刘春丽,",人物,character
+R87,李德容,人物,character
+R88,《中华结核和呼吸杂志》,期刊,character
+R89,《华医学杂志 》,期刊,character
+R90,《中药新药与临床药理 》,期刊,character
+R91,《中国实用内科杂志》,期刊,character
+R92,《中国临床药理学与治疗学》,期刊,character
+R93,《中国微生态学杂志》,期刊,character
+R94,《微生物学免疫学进展》,期刊,character
+R95,《 病毒学报. 》,期刊,character
+R96,《中国发明与专利》,期刊,character
+R97,《生命科学》,期刊,character
+R98,《 中国工程科学》,期刊,character
+R99,《 微生物学报》,期刊,character
