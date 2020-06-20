@@ -1,0 +1,13 @@
+neo4j-admin import --mode=csv --nodes import\character_entity.csv --relationships import\character_rel.csv
+
+neo4j-admin import --database=graph.db --mode=csv--multiline-fields=true --nodes import\event_entity.csv --relationships import\event_rel.csv
+
+neo4j-admin import --mode=csv --multiline-fields=true --nodes import\character_entity.csv --nodes import\event_entity.csv  --relationships import\character_rel.csv --relationships import\event_rel.csv
+
+
+final:
+
+neo4j-admin import --mode=csv --multiline-fields=true --nodes import\character_entity.csv --nodes import\event_entity.csv  --nodes import\concept_entity.csv --nodes import\goods_entity.csv --nodes import\health_entity.csv --nodes import\medical_entity.csv  --nodes import\prevention_entity.csv --nodes import\wiki_entity.csv  --relationships import\character_rel.csv --relationships import\event_rel.csv --relationships import\concept_rel.csv --relationships import\goods_rel.csv --relationships import\health_rel.csv --relationships import\medical_rel.csv --relationships import\prevention_rel.csv --relationships import\wiki_rel.csv
+
+
+final
