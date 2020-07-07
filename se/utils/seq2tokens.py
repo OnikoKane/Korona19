@@ -4,7 +4,7 @@ import jieba.posseg as psg
 
 class WordHandler:
     def __init__(self):
-        path = r'C:\Users\Kane\PycharmProjects\LKorona19_SE\se\utils\data\SWs.txt'
+        path = r'D:\GitHub\Korona19\SWs.txt'
         jieba.load_userdict(path)
         self.entity = []
         with open(path, 'r', encoding='utf-8') as f:
