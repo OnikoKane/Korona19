@@ -80,6 +80,10 @@ const useStyles = makeStyles((theme) => ({
         top: 'auto',
         bottom: 0,
         background: 'rgba(0,0,0,0.0)',
+        zIndex:'-1'
+    },
+    SearchBox:{
+        zIndex:'100'
     },
 
 
@@ -94,7 +98,7 @@ function App() {
     function handleToggled (toggled) {
         setState({isToggled:toggled});
     };
-
+    const data= require('./List');
 
     return (
         <React.Fragment>
@@ -112,7 +116,7 @@ function App() {
                             </Typography>
                         </Box>
 
-                        <SearchBox/>
+                        <SearchBox className={classes.SearchBox} data={data}/>
 
                         <AppBar className={classes.appBar}>
                         <Box display="flex" justifyContent="center" alignItems="flex-end" mt={2} mb={3}>

@@ -7,7 +7,7 @@ import { Router, Route, Switch } from "react-router-dom";
 import { createBrowserHistory } from "history";
 import Page from './SearchPage';
 
-var hist = createBrowserHistory();
+let hist = createBrowserHistory();
 
 ReactDOM.render(
     <Router history={hist}>
