@@ -29,8 +29,7 @@ class GraphService:
                         "match (s)<-[p]-(o) where s.value= '{}' return type(p), o.value, labels(o)".format(v)).data()
             else:
                 pklabelsRt = \
-                    self.graph.run("match (s) where s.value=~'.*{}.*' return labels(s)".format(value)).data()[0][
-                        'labels(s)']
+                    self.graph.run("match (s) where s.value=~'.*{}.*' return labels(s)".format(value)).data()
                 rtTo = self.graph.run(
                     "match (s)-[p]->(o) where s.value= '{}' return type(p), o.value, labels(o)".format(value)).data()
                 rtFrom = self.graph.run(
@@ -53,6 +52,7 @@ class GraphService:
                     property_dictFrom[po['type(p)']].append((po['labels(o)'][0], po['o.value']))
 
             pklabels = []
+
             for it in pklabelsRt:
                 pklabels.append(it['labels(s)'][0])
             pklabels = list(set(pklabels))
