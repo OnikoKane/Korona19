@@ -37,19 +37,19 @@ class GraphService:
 
             property_dictTo = {}
             if pk == '新型冠状病毒':
-                property_dictTo['别名'] = [('Concept String', n) for n in spe]
+                property_dictTo['别名'] = [['Concept String', n] for n in spe]
             for po in rtTo:
                 if po['type(p)'] not in property_dictTo:
-                    property_dictTo[po['type(p)']] = [(po['labels(o)'][0], po['o.value']), ]
+                    property_dictTo[po['type(p)']] = [[po['labels(o)'][0], po['o.value']], ]
                 else:
-                    property_dictTo[po['type(p)']].append((po['labels(o)'][0], po['o.value']))
+                    property_dictTo[po['type(p)']].append([po['labels(o)'][0], po['o.value']])
 
             property_dictFrom = {}
             for po in rtFrom:
                 if po['type(p)'] not in property_dictFrom:
-                    property_dictFrom[po['type(p)']] = [(po['labels(o)'][0], po['o.value']), ]
+                    property_dictFrom[po['type(p)']] = [[po['labels(o)'][0], po['o.value']], ]
                 else:
-                    property_dictFrom[po['type(p)']].append((po['labels(o)'][0], po['o.value']))
+                    property_dictFrom[po['type(p)']].append([po['labels(o)'][0], po['o.value']])
 
             pklabels = []
 
