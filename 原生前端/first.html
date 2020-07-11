@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Covid-19</title>
+
+	<!-- 放入django中要改一改路径 -->
+	<link rel="stylesheet" type="text/css" href="./first.css">
+</head>
+<body>
+	
+	<div>
+		<div class="logo">Covid-19</div>
+
+		<div class="search">
+			<form action="/search/" method="post">
+				<input type="text" name="search" class="word" autocomplete="off" placeholder="在 Covid-19 上搜索！！！">
+				<button class="button">🔍</button>
+			</form>
+			<ul class="promp">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+		<div>
+			<!-- 可能要改链接地址 -->
+			<a href="first.html" class="first">
+			</a>
+		</div>
+	</div>
+
+	
+	<!-- 放入django中要改一改路径 -->
+	<!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js" aysnc></script> -->
+	<script type="text/javascript" src="./first.js" aysnc></script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: #424242;
+	font-family: arial;
+}
+
+body{
+	background-color: #E8E8E8;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style-type:none;
+}
+
+input{
+	outline:none;
+}
+button{
+	outline: none;
+}
+
+.middle{
+	height: 72px;
+}
+
+.top{
+	position: fixed;
+	height: 71px;
+	width: 100%;
+	background-color: #25202D;
+	box-shadow: 0px 0px 0px 2px #333;
+}
+
+.logo{
+	color: white;
+	font-family: arial;
+	font-size: xx-large;
+	position: fixed;
+	left: 15px;
+	top: 17px;
+	width: 140px;
+	height: 50px;
+}
+
+.search{
+	position: fixed;
+	background-color: white;
+	left: 155px;
+	top: 15px;
+	border: 3px solid white;
+	border-radius: 10px;
+	
+}
+.word{
+	height: 35px;
+	width: 350px;
+	font-size: large;
+	border: 0px;
+	float: left;
+	font-family: arial; 
+	overflow: hidden;
+	white-space: nowrap;
+}
+.button{
+	height: 35px;
+	width: 35px;
+	border: 0px;
+	border-radius: 50%;
+	font-size: large;
+	font-family: arial; 
+	background-color: white;
+}
+.button:hover{
+	background-color: #808080;
+	cursor: pointer;
+}
+
+.title{
+	position: fixed;
+	color:white;
+	font-size: xx-large;
+	top: 17px;
+	left: 1310px;
+}
+
+.first{
+	position: fixed;
+	font-size: small;
+	color: white;
+	width: 158px;
+	left: 50%;
+	margin-left: -79px;
+	top: 95%;
+}
+
+.bottom{
+	position: fixed;
+	left: 50%;
+	margin-left: -160px;
+	top: 92%;
+	border-bottom: 100px solid #25202D;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	width: 200px;
+}
+
+.promp{
+	display: none;
+}
+
+.promp li{
+	width: 350px;
+	padding-left: 7px;
+	line-height: 32px;
+	cursor: pointer;
+	border-radius: 2px;
+	font-size: large;
+	font-family: arial; 
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.promp li:hover{
+	background-color: #d7d7d7;
+}
+
+.left{
+	display: inline-block;
+	width: 50%;
+	font-size: large;
+	float: left;
+	overflow: hidden;
+	white-space: normal;
+	word-break: break-all;
+}
+
+.right{
+	display: inline-block;
+	width: 50%;
+	font-size: large;
+	overflow: hidden;
+	white-space: normal;
+	word-break: break-all;
+}
