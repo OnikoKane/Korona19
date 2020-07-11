@@ -85,9 +85,9 @@ const useStyles = makeStyles((theme) => ({
     headerComponent: {
         marginLeft: theme.spacing(16),
         marginTop: theme.spacing(-1.5),
-        width:'120%',
-        zIndex:'1'
-        //position:"absolute"
+        width:'47%',
+        zIndex:'1',
+        position:"fixed"
     },
     headerTitle: {
         marginLeft: theme.spacing(0.5),
@@ -128,16 +128,17 @@ function Page() {
     if (n2!=-1){
         q = decodeURI(loc.substr(n2+1,n1-n2));
     }
+    const data= require('./List');
     //console.log(q);
 
 
-    fetch('', {
+    fetch('http://127.0.0.1:8000/korona19.html/', {
         method: 'POST',
         headers: {
             //'Content-Type': 'application/x-www-form-urlencoded',
         },
         body: JSON.stringify({
-            "entity": q,
+            "sequence": q,
         })
     }).then(res => res.text()).then(res => {setRes({value:strToJson(res).value ,label:strToJson(res).label , graph:strToJson(res).graph })})
         .catch((error) => {
@@ -163,7 +164,7 @@ function Page() {
                         </AppBar>
 
                         <div className={classes.headerComponent} >
-                            <SearchBox value={q} />
+                            <SearchBox data={data}/>
                         </div>
                     </div>
                     <div className={classes.searchResult}>

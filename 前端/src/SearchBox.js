@@ -2,7 +2,7 @@ import JSONP from "jsonp";
 import React, {Component} from "react";
 import Paper from "@material-ui/core/Paper/Paper";
 import Box from "@material-ui/core/Box";
-import InputBase from "@material-ui/core/InputBase/InputBase";
+import InputBase from "@material-ui/core/InputBase";
 import IconButton from "@material-ui/core/IconButton";
 import SearchIcon from "@material-ui/icons/Search";
 import Divider from "@material-ui/core/Divider";
@@ -53,7 +53,10 @@ class SearchBox extends Component{
         this.setState({val:e.target.value});
         //let {s} = await jsonp("https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd="+e.targe.value{param:"cb"});
         let value=e.target.value;
-        let items =await SearchList(value);
+        let items=[];
+        if(value){
+            items =await SearchList(value,this.props.data);
+        }
         //console.log(items)
         this.setState({arr:items});
     }
@@ -82,11 +85,12 @@ class SearchBox extends Component{
             }
         }
     }
+
     handleKeyDown= (e)=>{
         if (e.keyCode ===13){
             //https://www.baidu.com/s?wd=xxx  百度的查询接口
             //window.open('https://www.baidu.com/s?wd=' + this.state.val, '_blank');
-            window.open('./search?q=' +encodeURI(this.state.val), '_blank');
+            window.location.href='./search?q=' +encodeURI(this.state.val);
             this.refs.input.focus();
         }
     }
@@ -99,7 +103,8 @@ class SearchBox extends Component{
         this.refs.input.value = item;
     }
     handleClick =()=>{
-        window.open('./search?q=' +encodeURI(this.state.val), '_blank');
+        //window.open('./search?q=' +encodeURI(this.state.val), '_blank');
+        window.location.href='./search?q=' +encodeURI(this.state.val);
         this.refs.input.focus();
     }
     render(){
@@ -134,7 +139,7 @@ class SearchBox extends Component{
         return (
             <Paper >
                 <Box display="flex" justifyContent="center" alignItems="center" mt={3}>
-                    <Paper component="form" style={classes.root}>
+                    <Paper style={classes.root}>
                         <InputBase
                             ref='input'
                             style={classes.input}

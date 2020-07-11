@@ -8,6 +8,8 @@ from se.utils.seq2tokens import WordHandler
 
 # py manage.py runserver
 
+# from se.__init__ import gs, ess, wordHandler
+
 gs = GraphService()
 ess = ESService()
 wordHandler = WordHandler()
@@ -28,17 +30,13 @@ def korona19(request):
 
         # Search
         esRt = ess.search(tokens=esword)
+
         # if flag is -1, then no content of graph for showing,
-        graphRt = -1
         if graphword != -1:
-            _rt1, _rt2, _rt3, _rt4 = gs.search(value=graphword)
-            # return pk, pklabel, property_dictTo, property_dictFrom
-            graphRt = {
-                'pk': _rt1,  # 作为graph展示的标题
-                'pklabel': _rt2,
-                'property': _rt3,  # 属于该entity的属性
-                'relate': _rt4,  # 被指向的属性 _rt4 -> entity
-            }
+            graphRt = gs.search(value=graphword)
+        else:
+            graphRt = -1
+
 
         # ==============print==============
         print('=========')
