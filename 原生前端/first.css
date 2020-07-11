@@ -2,11 +2,13 @@
 	margin: 0;
 	padding: 0;
 	color: #424242;
+	font-family: arial;
 }
 
 body{
 	background-color: #25202D;
 }
+
 a{
 	text-decoration: none;
 }
