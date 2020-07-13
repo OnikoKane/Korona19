@@ -10,7 +10,7 @@ Databases: Neo4j(3.5.x) and Elastic Search(7.x)
 
 Frontend: React
 
-Backend: Django(4.x)
+Backend: Django(3.x)
 
 ES data in se.utils.data, neo4j data in Neo4jData
 
@@ -28,6 +28,6 @@ ES data in se.utils.data, neo4j data in Neo4jData
 
 前端为React
 
-后端使用Django(4.x)
+后端使用Django(3.x)
 
 ES导入数据在se.utils.data, neo4j导入数据在Neo4jData
