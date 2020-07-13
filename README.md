@@ -12,6 +12,8 @@ Frontend: React
 
 Backend: Django(4.x)
 
+ES data in se.utils.data, neo4j data in Neo4jData
+
 
 =====================================================
 
@@ -26,3 +28,5 @@ Backend: Django(4.x)
 前端为React
 
 后端使用Django(4.x)
+
+ES导入数据在se.utils.data, neo4j导入数据在Neo4jData
