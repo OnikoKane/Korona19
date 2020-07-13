@@ -18,10 +18,10 @@ import Page from './SearchPage';
 const theme = createMuiTheme({
     palette: {
         primary: {
-            light:'#ffffff',
-            main: '#ffffff',
-            dark: '#ffffff',
-            contrastText: '#ffffff',
+            light:'#232526',
+            main: '#232526',
+            dark: '#232526',
+            contrastText: '#232526',
         },
         secondary: {
             light:'#25202D',
@@ -64,7 +64,7 @@ const useStyles = makeStyles((theme) => ({
         position: 'fixed',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        background: '#232526',
+        background: 'rgba(0,0,0,0.0)',
         overflowX:'hidden',
         overflowY:'hidden',
     },
@@ -74,7 +74,7 @@ const useStyles = makeStyles((theme) => ({
         left: 0,
         right: 0,
         bottom: 0,
-        background: 'rgba(0,0,0,0.7)',      //#232526
+        background: '#ffffff',      //#232526
     },
     appBar: {
         top: 'auto',

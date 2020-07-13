@@ -3,15 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@mui-treasury/styles": "^1.6.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@mui-treasury/styles": "^1.8.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "prop-types": "latest",
     "react": "^16.13.1",
     "react-div-100vh": "^0.3.8",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
-    "prop-types": "latest"
+    "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -35,7 +36,7 @@
     ]
   },
   "devDependencies": {
-    "@material-ui/core": "^4.10.1",
+    "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
     "components": "^0.1.0",
     "history": "^4.10.1",
@@ -43,5 +44,5 @@
     "react-router-dom": "^5.2.0",
     "semantic-ui-react": "^0.88.2"
   },
-  "proxy":"http://localhost:3000"
+  "proxy": "http://localhost:3000"
 }

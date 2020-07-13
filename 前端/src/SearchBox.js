@@ -10,15 +10,17 @@ import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText/ListItemText";
 import {createMuiTheme} from "@material-ui/core";
 import SearchList from './SearchList';
+import Alert from '@material-ui/lab/Alert';
+
 
 
 const theme = createMuiTheme({
     palette: {
         primary: {
-            light:'#ffffff',
-            main: '#ffffff',
-            dark: '#ffffff',
-            contrastText: '#ffffff',
+            light:'#232526',
+            main: '#232526',
+            dark: '#232526',
+            contrastText: '#232526',
         },
         secondary: {
             light:'#25202D',
@@ -45,11 +47,13 @@ class SearchBox extends Component{
         this.state={
             val:"",
             arr:[],
-            index:-1
+            index:-1,
+            alert:false
         }
     }
 
     handleChange = async (e)=>{
+        this.setState({alert:false})
         this.setState({val:e.target.value});
         //let {s} = await jsonp("https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd="+e.targe.value{param:"cb"});
         let value=e.target.value;
@@ -57,8 +61,9 @@ class SearchBox extends Component{
         if(value){
             items =await SearchList(value,this.props.data);
         }
-        //console.log(items)
+        console.log(typeof(value))
         this.setState({arr:items});
+        this.refs.input.focus();
     }
 
 
@@ -86,11 +91,14 @@ class SearchBox extends Component{
         }
     }
 
-    handleKeyDown= (e)=>{
+    handleKeyDown=(e)=>{
         if (e.keyCode ===13){
             //https://www.baidu.com/s?wd=xxx  百度的查询接口
             //window.open('https://www.baidu.com/s?wd=' + this.state.val, '_blank');
-            window.location.href='./search?q=' +encodeURI(this.state.val);
+            if(this.state.val == ""){
+                this.setState({alert:true})}
+            else{
+                window.location.href='./search?q=' +encodeURI(this.state.val)}
             this.refs.input.focus();
         }
     }
@@ -102,13 +110,15 @@ class SearchBox extends Component{
         this.setState({index:key,val:item});
         this.refs.input.value = item;
     }
-    handleClick =()=>{
+    handleClick=()=>{
         //window.open('./search?q=' +encodeURI(this.state.val), '_blank');
-        window.location.href='./search?q=' +encodeURI(this.state.val);
+        if(this.state.val == ""){
+            this.setState({alert:true})}
+        else{
+            window.location.href='./search?q=' +encodeURI(this.state.val)}
         this.refs.input.focus();
     }
     render(){
-        const searchText = this.state.val;
         const useStyles = {
             root: {
                 padding: '2px 0px',
@@ -143,7 +153,7 @@ class SearchBox extends Component{
                         <InputBase
                             ref='input'
                             style={classes.input}
-                            defaultValue={this.props.value}
+                            defaultValue={this.props.q}
                             placeholder="输入问题/关键词"
                             inputProps={{ 'aria-label': 'search google maps' }}
                             onChange={this.handleChange}
@@ -167,6 +177,10 @@ class SearchBox extends Component{
                         );
                     })}
                 </Box>
+                {this.state.alert == true ?
+                    <Alert severity="info">输入为空，请重新输入。</Alert>:
+                    <div/>
+                }
 
             </Paper>
         )

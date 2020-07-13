@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
         flexWrap: 'wrap',
         '& > *': {
             margin: theme.spacing(0.5),},
-        width:'47%',
+        width:'46%',
         marginRight: theme.spacing(1.5),
     },
     Typography:{
@@ -35,20 +35,31 @@ const useStyles = makeStyles((theme) => ({
     chip:{
         marginRight: theme.spacing(1),
         width:'80%',
+        background:'#ffeb3b',
 
     }
 
 
 }));
 
+function objectToArray(data) {
+    let item = [];
+    for(let p in data ) {
+        if(!!data[p]) {
+            item.push([p,data[p]]);
+        }
+    }
+
+    return item;
+}
 
 function Result(props){
     const classes = useStyles();
     const labels = props.labels? props.labels : [];
-    const propertys = props.propertys ? props.propertys : [];
-    const relationships = props.relationships ? props.relationships : [];
+    const propertys =  objectToArray(props.property_dictTo) ?  objectToArray(props.property_dictTo) : [];
+    const relationships = objectToArray(props.property_dictFrom)? objectToArray(props.property_dictFrom) : [];
     return(
-        <Card className={classes.card}>
+        <Card className={classes.card} variant="outlined">
             <CardActionArea>
                 <CardContent>
                     <Typography variant="h6" gutterBottom>
@@ -77,25 +88,18 @@ function Result(props){
                         属性
                     </Typography>
                     <Typography variant="body2" color="textSecondary" component="p" className={classes.card} >
-                        <Paper  className={classes.paper} >
-                            <Typography  variant="subtitle2" className={classes.Typography}>
-                                xx：
-                            </Typography>
-                            <Chip label='xx' component="a" href="#chip" clickable className={classes.chip} />
-                        </Paper>
-                        <Paper  className={classes.paper} >
-                            <Typography  variant="subtitle2" className={classes.Typography}>
-                                xx：
-                            </Typography>
-                            <Chip label='xx' component="a" href="#chip" clickable className={classes.chip} />
-                        </Paper>
+
                         {propertys.map((item,key)=>{
                             return (
-                                <Paper  className={classes.paper} >
+                                <Paper className={classes.paper} >
                                     <Typography  variant="subtitle2">
-                                        {key}：
+                                        {item[0]}：
                                     </Typography>
-                                    <Chip label={item} component="a" href="#chip" clickable className={classes.chip}/>
+                                    {item[1].map((item1,key1)=>{
+                                        return (
+                                            <Chip label={item1[1]} component="a" href="#chip" clickable className={classes.chip}/>
+                                        );
+                                    })}
                                 </Paper>
                             );
                         })}
@@ -111,9 +115,13 @@ function Result(props){
                         return (
                             <Paper  className={classes.paper} >
                                 <Typography  variant="subtitle2">
-                                    {key}：
+                                    {item[0]}：
                                 </Typography>
-                                <Chip label={item} component="a" href="#chip" clickable className={classes.chip}/>
+                                {item[1].map((item1,key1)=>{
+                                    return (
+                                        <Chip label={item1[1]} component="a" href="#chip" clickable className={classes.chip}/>
+                                    );
+                                })}
                             </Paper>
                         );
                     })}

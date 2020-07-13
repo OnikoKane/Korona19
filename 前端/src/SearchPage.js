@@ -8,16 +8,20 @@ import {createMuiTheme} from "@material-ui/core";
 import {makeStyles} from "@material-ui/core/styles";
 import Copyright from './Copyright';
 import Result from "./SearchResult";
+import Result1 from "./SearchResult1";
 import Toolbar from '@material-ui/core/Toolbar';
+import Grid from '@material-ui/core/Grid';
+import Pagination from '@material-ui/lab/Pagination';
+
 
 
 const theme = createMuiTheme({
     palette: {
         primary: {
-            light:'#ffffff',
-            main: '#ffffff',
-            dark: '#ffffff',
-            contrastText: '#ffffff',
+            light:'#232526',
+            main: '#232526',
+            dark: '#232526',
+            contrastText: '#232526',
         },
         secondary: {
             light:'#25202D',
@@ -52,7 +56,7 @@ const useStyles = makeStyles((theme) => ({
         position: 'fixed',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        background: '#232526',
+        background: '#ffffff',
         overflowX:'hidden',
         overflowY:'auto',
     },
@@ -62,30 +66,32 @@ const useStyles = makeStyles((theme) => ({
         left: 0,
         right: 0,
         bottom: 0,
-        background: 'rgba(0,0,0,0.7)',      //#232526
+        background: '#ffffff',      //#232526
     },
     appBar: {
-        top: 'auto',
+        top: '87%',
         bottom: 0,
-        background: 'rgba(0,0,0,0.0)',
+        background: '#ffffff',
         zIndex:'-1',
-        position:'fixed'
+        position:'relative',
+        marginTop: theme.spacing(6),
+
     },
     headerBox: {
-        zIndex:'1000',
+        zIndex:'10',
         position:'fixed',
     },
     header: {
         top: 0,
         bottom: 'auto',
-        background: '#232526',
+        background: '#ffffff',
         position:'fixed',
         zIndex:'-1',
     },
     headerComponent: {
         marginLeft: theme.spacing(16),
         marginTop: theme.spacing(-1.5),
-        width:'47%',
+        width:'39%',
         zIndex:'1',
         position:"fixed"
     },
@@ -100,8 +106,20 @@ const useStyles = makeStyles((theme) => ({
         marginLeft: theme.spacing(3),
         zIndex:'-1',
         position:'relative',
-        marginTop: theme.spacing(10),
-        width:'53%',
+        marginTop: theme.spacing(13),
+        width:'53%',  //
+        marginBottom: theme.spacing(6),
+    },
+    searchResult1:{
+        marginRight: theme.spacing(3),
+        zIndex:'-1',
+        position:'relative',
+        marginTop: theme.spacing(13),
+        width:'35%',  //
+        marginBottom: theme.spacing(6),
+    },
+    Pagination:{
+        marginBottom: theme.spacing(-52),
     },
 
 }));
@@ -112,9 +130,10 @@ function Page() {
         isToggled: true,
     });
     const [res,setRes] = React.useState({
-        labels: [],
-        propertys:[],
-        relationships:[],
+        request:false
+    });
+    const [res1,setRes1] = React.useState({
+        request:false
     });
     const classes = useStyles();
     function handleToggled (toggled) {
@@ -132,7 +151,7 @@ function Page() {
     //console.log(q);
 
 
-    fetch('http://127.0.0.1:8000/korona19.html/', {
+    fetch('http://127.0.0.1:8000/se/search', {
         method: 'POST',
         headers: {
             //'Content-Type': 'application/x-www-form-urlencoded',
@@ -140,36 +159,80 @@ function Page() {
         body: JSON.stringify({
             "sequence": q,
         })
-    }).then(res => res.text()).then(res => {setRes({value:strToJson(res).value ,label:strToJson(res).label , graph:strToJson(res).graph })})
+    }).then(res => res.text()).then(res => { strToJson(res).graphRt !== -1? setRes({pk:strToJson(res).graphRt.pk, pklabels:strToJson(res).graphRt.pklabels , property_dictTo:strToJson(res).graphRt.property_dictTo ,property_dictFrom:strToJson(res).graphRt.property_dictFrom, request: true }):setRes({request:false})
+        ;strToJson(res).esRt !== -1?setRes1({esRt:strToJson(res).esRt.hits, request: true }):setRes1({request:false})})
         .catch((error) => {
             alert("结果返回失败！");
         });
 
+
+
     function strToJson(str) {
         return JSON.parse(str);
     }
+
+    const [page, setPage] = React.useState(1);
+    const handleChange = (event, value) => {
+        setPage(value);
+    };
 
 
     return (
         <React.Fragment>
             <ThemeProvider theme={theme}>
                 <div className={classes.background}>
-                    <div className={classes.headerBox}>
-                        <AppBar className={classes.header}>
+                    <div className={classes.headerBox} >
+                        <AppBar className={classes.header} >
                             <Toolbar >
                                 <Typography component="h3" variant="h8" color="primary" className={classes.headerTitle}>
                                     Korona19
                                 </Typography>
                             </Toolbar>
                         </AppBar>
-
                         <div className={classes.headerComponent} >
-                            <SearchBox data={data}/>
+                            <SearchBox data={data} q={q}/>
                         </div>
                     </div>
-                    <div className={classes.searchResult}>
-                        <Result q={q} labels={res.labels} relationships={res.relationships} propertys={res.propertys}/>
-                    </div>
+
+                    {res.request && res1.request ?
+                        <Grid className={classes.Pagination}>
+                            <Grid container spacing={3}>
+                                <Grid item xs className={classes.searchResult}>
+                                    <Result q={res.pk} labels={res.pklabels} property_dictTo={res.property_dictTo} property_dictFrom={res.property_dictFrom}/>
+                                </Grid>
+                                <Grid item xs className={classes.searchResult1}>
+                                    <Result1 esRt={res1.esRt} page={page}/>
+                                </Grid>
+                            </Grid>
+                            <Grid container spacing={3} justify="center" className={classes.Pagination}>
+                                <Pagination count={3} page={page} onChange={handleChange} />
+                            </Grid>
+                        </Grid>
+                        :<Grid/>}
+
+                    {res.request && !res1.request?
+                        <Grid className={classes.Pagination}>
+                        <Grid container spacing={3}>
+                            <Grid item xs className={classes.searchResult}>
+                                <Result q={res.pk} labels={res.pklabels} property_dictTo={res.property_dictTo} property_dictFrom={res.property_dictFrom}/>
+                            </Grid>
+                        </Grid>
+                        </Grid>
+                        :<Grid/>}
+
+                    {!res.request && res1.request?
+                        <Grid className={classes.Pagination}>
+                            <Grid container spacing={3} justify="center">
+                                <Grid item xs={6} className={classes.searchResult1}>
+                                    <Result1 esRt={res1.esRt} page={page}/>
+                                </Grid>
+                            </Grid>
+                            <Grid container spacing={3} justify="center" className={classes.Pagination}>
+                                <Pagination count={3} page={page} onChange={handleChange} />
+                            </Grid>
+                        </Grid>
+                        :<Grid/>}
+
 
                     <AppBar className={classes.appBar}>
                         <Box display="flex" justifyContent="center" alignItems="flex-end" mt={2} mb={3}>
