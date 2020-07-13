@@ -21,6 +21,8 @@ ES data in se.utils.data, neo4j data in Neo4jData
 
 关于新型冠状病毒2019的搜索引擎
 
+并使用python转换为csv数据
+
 数据来源于OpenKG
 
 
