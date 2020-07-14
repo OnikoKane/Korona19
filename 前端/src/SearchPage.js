@@ -145,7 +145,7 @@ function Page() {
     //console.log(q);
 
 
-    fetch('http://127.0.0.1:8000/se/search', {
+    fetch('http://127.0.0.1:8000/se/search/', {
         method: 'POST',
         headers: {
             //'Content-Type': 'application/x-www-form-urlencoded',
@@ -156,7 +156,9 @@ function Page() {
     }).then(res => res.text()).then(res => { strToJson(res).graphRt !== -1? setRes({pk:strToJson(res).graphRt.pk, pklabels:strToJson(res).graphRt.pklabels , property_dictTo:strToJson(res).graphRt.property_dictTo ,property_dictFrom:strToJson(res).graphRt.property_dictFrom, request: true }):setRes({request:false})
         ;strToJson(res).esRt !== -1?setRes1({esRt:strToJson(res).esRt, request: true }):setRes1({request:false})})
         .catch((error) => {
-            alert("结果返回失败！");});
+            // alert("结果返回失败！");
+            console.log("No return!");
+        });
 
 
 
@@ -187,7 +189,7 @@ function Page() {
                         </div>
                     </div>
 
-                    <Grid >
+                    {/* <Grid >
                         <Grid container spacing={3}>
                             <Grid item xs className={classes.searchResult}>
                                 <Result q={res.pk} labels={res.pklabels} property_dictTo={res.property_dictTo} property_dictFrom={res.property_dictFrom}/>
@@ -199,7 +201,7 @@ function Page() {
                         <Grid container spacing={3} justify="center" className={classes.Pagination}>
                             <Pagination count={3} page={page} onChange={handleChange} />
                         </Grid>
-                    </Grid>
+                    </Grid> */}
 
 
                     {res.request && res1.request ?
