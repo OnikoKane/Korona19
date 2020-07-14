@@ -1,4 +1,3 @@
-import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 import Divider from "@material-ui/core/Divider";
@@ -12,11 +11,8 @@ import Grid from '@material-ui/core/Grid';
 const useStyles = makeStyles((theme) => ({
     card:{
         background: 'rgba(255,255,255)',
-        display: 'flex',
-        justifyContent: 'left',
-        flexWrap: 'wrap',
         '& > *': {
-            margin: theme.spacing(0.5),
+            margin: theme.spacing(1),
         },
     },
     card1:{
@@ -28,6 +24,7 @@ const useStyles = makeStyles((theme) => ({
             margin: theme.spacing(0.5),
         },
         marginBottom: theme.spacing(1),
+        minWidth:'100%'
     },
     paper:{
         width:'60%',
@@ -45,7 +42,6 @@ const useStyles = makeStyles((theme) => ({
         marginRight: theme.spacing(1),
         width:'15%',
         background:'#9ccc65',
-
     }
 
 
@@ -66,28 +62,25 @@ function Result1(props){
     const classes = useStyles();
     const esRt = objectToArray(props.esRt)? objectToArray(props.esRt) : [];
     return(
-        <Grid className={classes.card}>
-            <CardActionArea>
+        <Paper className={classes.card} elevation={0}>
                 { esRt.map((item,key)=>{
-                    console.log(item);
-                    if ((props.page-1)*10<=key<props.page*10){
-                        let item1=item[1]['_source'];
+                    if ((props.page-1)*10<=key && key<props.page*10){
+                        let item1=item[1];
                         return (
                             <CardContent>
                                 <Grid  className={classes.card1} >
-                                    <Chip label={item1['graph']} component="a" href="#chip" clickable className={classes.chip}/>
+                                    <Chip label={item1['graph']} className={classes.chip}/>
                                     <Typography  variant="subtitle2" noWrap className={classes.paper}>
                                         {item1['value']}
                                     </Typography>
-                                    <Chip label={item1['label']} component="a" href="#chip" clickable className={classes.chip1}/>
+                                    <Chip label={item1['label']} className={classes.chip1}/>
                                 </Grid>
                                 <Divider variant="middle"/>
                             </CardContent>
                         );}
                     })
                 }
-            </CardActionArea>
-        </Grid>
+        </Paper>
     );
 
 }

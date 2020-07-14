@@ -1,4 +1,3 @@
-import JSONP from "jsonp";
 import React, {Component} from "react";
 import Paper from "@material-ui/core/Paper/Paper";
 import Box from "@material-ui/core/Box";
@@ -32,20 +31,11 @@ const theme = createMuiTheme({
 });
 
 
-function jsonp(url,opts={}) {
-    return new Promise((resolve,reject)=>{
-        JSONP(url,opts, (err,data)=> {
-            if (err) reject(err);
-            resolve(data);
-        })
-    })
-}
-
 class SearchBox extends Component{
     constructor(props){
         super(props);
         this.state={
-            val:"",
+            val:this.props.q?this.props.q:'',
             arr:[],
             index:-1,
             alert:false
@@ -144,6 +134,7 @@ class SearchBox extends Component{
         };
 
         const classes = useStyles;
+
 
 
         return (

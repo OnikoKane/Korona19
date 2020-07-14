@@ -104,7 +104,7 @@ const useStyles = makeStyles((theme) => ({
     },
     searchResult:{
         marginLeft: theme.spacing(3),
-        zIndex:'-1',
+        //zIndex:'-1',
         position:'relative',
         marginTop: theme.spacing(13),
         width:'53%',  //
@@ -112,23 +112,20 @@ const useStyles = makeStyles((theme) => ({
     },
     searchResult1:{
         marginRight: theme.spacing(3),
-        zIndex:'-1',
+        //zIndex:'-1',
         position:'relative',
         marginTop: theme.spacing(13),
         width:'35%',  //
         marginBottom: theme.spacing(6),
     },
     Pagination:{
-        marginBottom: theme.spacing(-52),
+        marginBottom: theme.spacing(-40),
     },
 
 }));
 
 
 function Page() {
-    const [state, setState] = React.useState({
-        isToggled: true,
-    });
     const [res,setRes] = React.useState({
         request:false
     });
@@ -136,9 +133,6 @@ function Page() {
         request:false
     });
     const classes = useStyles();
-    function handleToggled (toggled) {
-        setState({isToggled:toggled});
-    };
     let loc = window.location.href;
     let n1 = loc.length;
     let n2 = loc.indexOf('=');
@@ -160,10 +154,9 @@ function Page() {
             "sequence": q,
         })
     }).then(res => res.text()).then(res => { strToJson(res).graphRt !== -1? setRes({pk:strToJson(res).graphRt.pk, pklabels:strToJson(res).graphRt.pklabels , property_dictTo:strToJson(res).graphRt.property_dictTo ,property_dictFrom:strToJson(res).graphRt.property_dictFrom, request: true }):setRes({request:false})
-        ;strToJson(res).esRt !== -1?setRes1({esRt:strToJson(res).esRt.hits, request: true }):setRes1({request:false})})
+        ;strToJson(res).esRt !== -1?setRes1({esRt:strToJson(res).esRt, request: true }):setRes1({request:false})})
         .catch((error) => {
-            alert("结果返回失败！");
-        });
+            alert("结果返回失败！");});
 
 
 
@@ -193,6 +186,21 @@ function Page() {
                             <SearchBox data={data} q={q}/>
                         </div>
                     </div>
+
+                    <Grid >
+                        <Grid container spacing={3}>
+                            <Grid item xs className={classes.searchResult}>
+                                <Result q={res.pk} labels={res.pklabels} property_dictTo={res.property_dictTo} property_dictFrom={res.property_dictFrom}/>
+                            </Grid>
+                            <Grid item xs className={classes.searchResult1}>
+                                <Result1 esRt={res1.esRt} page={page}/>
+                            </Grid>
+                        </Grid>
+                        <Grid container spacing={3} justify="center" className={classes.Pagination}>
+                            <Pagination count={3} page={page} onChange={handleChange} />
+                        </Grid>
+                    </Grid>
+
 
                     {res.request && res1.request ?
                         <Grid className={classes.Pagination}>
@@ -239,7 +247,6 @@ function Page() {
                             <Copyright/>
                         </Box>
                     </AppBar>
-
                 </div>
             </ThemeProvider>
         </React.Fragment>
