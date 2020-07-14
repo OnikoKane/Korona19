@@ -17,9 +17,7 @@ from django.contrib import admin
 from django.urls import path, include
 from se import views
 
+
 urlpatterns = [
-    # path('se/', include('se.urls')),
-    path('admin/', admin.site.urls),
-    path('', views.korona19),
-    # path('search/', views.search)
+    path('se/', include('se.urls')),
 ]

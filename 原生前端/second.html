@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>I find you😘</title>
+	<!-- 放入django中要改一改路径 -->
+	<link rel="stylesheet" type="text/css" href="./second.css">
+</head>
+<body>
+	<div class ="top">
+
+		<!-- 可能要改链接地址 -->
+		<a href="./first.html" class="logo">Covid-19</a>
+
+		<div class="search">
+			<form action="/search/" method="get">
+				<input type="text" name="search" class="word" autocomplete="off" placeholder="在 Covid-19 上搜索！！！">
+				<button class="button">🔍</button>
+			</form>
+			<ul class="promp">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+		<div class="title">{{name}}</div>
+	</div>
+
+	<div class="middle"></div>
+
+	<div class='mom'>
+		<div id='ES_data' style="display: none">{{esRT}}</div>
+		<div class="left">
+			<h1>来自ES</h1>
+			<br>
+			<div class="context"></div>
+		</div>
+
+		<div id='Neo4j_data' style="display: none">{{graphRT}}</div>
+		<div class="right">
+			<h1>来自Neo4j</h1>
+			<br>
+			<h3>实体名称</h3>
+			<div class="pk">null</div>
+			<br>
+			<h3>实体标签</h3>
+			<div class="pklabel">null</div>
+			<br>
+			<h3>子属性</h3>
+			<div class="property_dictTo">null</div>
+			<br>
+			<h3>母属性</h3>
+			<div class="property_dictFrom">null</div>
+		</div>
+	</div>
+		
+
+	<div class="bottom">
+
+		<!-- 可能要改链接地址 -->
+		<a href="./first.html" class="first">
+		</a>
+	</div>
+
+	<!-- 放入django中要改一改路径 -->
+	<script type="text/javascript" src = './second.js'></script>
+</body>
+</html>

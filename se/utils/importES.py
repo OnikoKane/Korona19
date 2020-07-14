@@ -2,11 +2,12 @@ import os
 import django
 import pandas as pd
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'LKorona19_SE.settings')
-django.setup()
 '''
     单独运行django文件所需前置
 '''
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'LKorona19_SE.settings')
+django.setup()
+
 
 from se.documents import Korona19Document
 from se.models import Korona19
@@ -17,20 +18,20 @@ from se.models import Korona19
 '''
 # mapID value label graph
 
-# flist = os.listdir('data')
-# counter = 0
-# for name in flist:
-#     data = pd.read_csv(r'data/' + name, encoding='utf-8')
-#     print(name+"   Entity nums:" + str(len(data)))
-#     for row in data.iterrows():
-#         Korona19(mapID=row[1]['mapID'],
-#                  value=row[1]['value'],
-#                  label=row[1]['label'],
-#                  graph=row[1]['graph']).save()
-#         counter += 1
-#         if counter % 4000 == 0:
-#             print(counter)
-# print('=======END=======')
+flist = os.listdir('data')
+counter = 0
+for name in flist:
+    data = pd.read_csv(r'data/' + name, encoding='utf-8')
+    print(name+"   Entity nums:" + str(len(data)))
+    for row in data.iterrows():
+        Korona19(mapID=row[1]['mapID'],
+                 value=row[1]['value'],
+                 label=row[1]['label'],
+                 graph=row[1]['graph']).save()
+        counter += 1
+        if counter % 4000 == 0:
+            print(counter)
+print('=======END=======')
 
 
 '''
@@ -60,7 +61,7 @@ from se.models import Korona19
 # rt = Korona19.objects.filter(value="钟南山").delete()
 
 
-s = Korona19Document.search().filter('match', value="'新型', '冠状', '病毒', '新型冠状病毒'")[:50]
+# s = Korona19Document.search().filter('match', value="'新型', '冠状', '病毒', '新型冠状病毒'")[:50]
 
 # .search().query("match", value="钟南山")[:30]
 
@@ -70,9 +71,9 @@ s = Korona19Document.search().filter('match', value="'新型', '冠状', '病毒
 #         # value = i.value
 #         # label = i.label
 #         print(i.label,' ',i.value)
-print(s)
-for i in s :
-    print(i.value, '  ', i.label)
+# print(s)
+# for i in s :
+#     print(i.value, '  ', i.label)
 
 
 
