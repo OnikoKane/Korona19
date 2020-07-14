@@ -36,7 +36,7 @@ def korona(request):
 
         rt = {
             'graphRt': graphRt,
-            'esRt': list(esRt.values('value', 'label', 'graph')),
+            'esRt': esRt,
         }
         return Response(json.dumps(rt))
 
