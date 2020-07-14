@@ -9,10 +9,11 @@ class ESService:
     def search(self, tokens):
         try:
             rt = Korona19Document.search().filter('match', value=tokens)[:30]
-            return rt.to_queryset()
+            rt = rt.to_queryset()
+            return list(rt.values('value', 'label', 'graph'))
         except: return -1
 
-# New
+
 # from elasticsearch import Elasticsearch
 # class ESService:
 #     def search(self, tokens):
