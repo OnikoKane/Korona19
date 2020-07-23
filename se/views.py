@@ -18,7 +18,7 @@ wordHandler = WordHandler()
 @api_view(['GET', 'POST'])
 def korona(request):
     if request.method == "POST":
-    #   sequence = request.GET.get("sequence")
+        # sequence = request.GET.get("sequence")
         data = json.loads(request.body)
         sequence = data.get("sequence")
 
@@ -38,7 +38,10 @@ def korona(request):
             'graphRt': graphRt,
             'esRt': esRt,
         }
-        return Response(json.dumps(rt))
+        # print(rt)
+        # return Response(json.dumps(rt))
+
+        return HttpResponse(json.dumps(rt))
 
 # def korona(request):
 #     global graphRt
