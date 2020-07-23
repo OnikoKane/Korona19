@@ -5,14 +5,20 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'LKorona19_SE.settings')
 django.setup()
 
 from se.documents import Korona19Document
+
+
 class ESService:
     def search(self, tokens):
         try:
             rt = Korona19Document.search().filter('match', value=tokens)[:30]
             rt = rt.to_queryset()
-            return list(rt.values('value', 'label', 'graph'))
-        except: return -1
-
+            rt = list(rt.values('value', 'label', 'graph'))
+            if len(rt) == 0:
+                return -1
+            else:
+                return rt
+        except:
+            return -1
 
 # from elasticsearch import Elasticsearch
 # class ESService:
