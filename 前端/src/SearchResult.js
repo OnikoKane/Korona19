@@ -22,8 +22,9 @@ const LightTooltip = withStyles((theme) => ({
 const useStyles = makeStyles((theme) => ({
     card:{
         background: 'rgba(255,255,255)',
-        display: 'flex',
+        //display: 'flex',
         flexWrap: 'wrap',
+        alignSelf:"stretch",
         '& > *': {
             margin: theme.spacing(1),
         },
@@ -92,6 +93,8 @@ function Result(props){
                 <Typography gutterBottom variant="subtitle2">
                     标签
                 </Typography>
+            </ListItem>
+            <ListItem component="p" className={classes.card} >
                 <Typography variant="body2" color="textSecondary" component="p" className={classes.card} >
                     {labels.map((item,key)=>{
                         return (
@@ -162,5 +165,3 @@ function Result(props){
 }
 
 export default Result;
-
-
