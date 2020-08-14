@@ -4,9 +4,18 @@ import Divider from "@material-ui/core/Divider";
 import Chip from "@material-ui/core/Chip";
 import React from "react";
 import Paper from "@material-ui/core/Paper/Paper";
-import {makeStyles} from "@material-ui/core/styles";
+import {makeStyles, withStyles} from "@material-ui/core/styles";
 import Grid from '@material-ui/core/Grid';
+import Tooltip from "@material-ui/core/Tooltip/Tooltip";
 
+const LightTooltip = withStyles((theme) => ({
+    tooltip: {
+        backgroundColor: theme.palette.common.white,
+        color: 'rgba(0, 0, 0, 0.87)',
+        boxShadow: theme.shadows[1],
+        fontSize: 11,
+    },
+}))(Tooltip);
 
 const useStyles = makeStyles((theme) => ({
     card:{
@@ -19,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
         background: 'rgba(255,255,255)',
         display: 'flex',
         justifyContent: 'left',
-        flexWrap: 'wrap',
+        //flexWrap: 'wrap',
         '& > *': {
             margin: theme.spacing(0.5),
         },
@@ -39,7 +48,7 @@ const useStyles = makeStyles((theme) => ({
         background:'#ffb74d',
     },
     chip1:{
-        marginRight: theme.spacing(1),
+        marginLeft: theme.spacing(1),
         width:'15%',
         background:'#9ccc65',
     }
@@ -70,9 +79,11 @@ function Result1(props){
                             <CardContent>
                                 <Grid  className={classes.card1} >
                                     <Chip label={item1['graph']} className={classes.chip}/>
-                                    <Typography  variant="subtitle2" noWrap className={classes.paper}>
-                                        {item1['value']}
-                                    </Typography>
+                                    <LightTooltip title={item1['value']} placement="top">
+                                        <Typography  variant="subtitle2" noWrap className={classes.paper}>
+                                            {item1['value']}
+                                        </Typography>
+                                    </LightTooltip>
                                     <Chip label={item1['label']} className={classes.chip1}/>
                                 </Grid>
                                 <Divider variant="middle"/>
