@@ -1,7 +1,7 @@
 # Korona19
 Search engine about COVID-19
 
-Data download from OpenKG, format in JSONLD
+Data download from OpenKG, format in JSON-LD
 
 Raw data converted to csv through python(in jupyter)
 
