@@ -13,7 +13,7 @@ Backend: Django(3.x)
 
 ES data in se.utils.data, neo4j data in Neo4jData
 
-url: http://52.82.12.174:9204/
+Site: http://52.82.12.174:9204/
 
 
 =====================================================
@@ -34,4 +34,4 @@ url: http://52.82.12.174:9204/
 
 ES导入数据在se.utils.data, neo4j导入数据在Neo4jData
 
-url: http://52.82.12.174:9204/
+Site: http://52.82.12.174:9204/
