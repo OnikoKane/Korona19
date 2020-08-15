@@ -11,7 +11,7 @@ Frontend: React
 
 Backend: Django(3.x)
 
-App is file se
+App： file se
 
 ES data in se.utils.data, neo4j data in Neo4jData
 
