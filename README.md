@@ -11,6 +11,8 @@ Frontend: React
 
 Backend: Django(3.x)
 
+App is file se
+
 ES data in se.utils.data, neo4j data in Neo4jData
 
 Site: http://52.82.12.174:9204/
@@ -31,6 +33,8 @@ Site: http://52.82.12.174:9204/
 前端为React
 
 后端使用Django(3.x)
+
+se是Django的app
 
 ES导入数据在se.utils.data, neo4j导入数据在Neo4jData
 
